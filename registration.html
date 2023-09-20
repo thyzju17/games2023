@@ -53,12 +53,13 @@
 
 <body>
 
-    <div class="nav_display">
-        <input type="checkbox" id="drawer-toggle" name="drawer-toggle" class="roll" />
-        <label for="drawer-toggle" id="drawer-toggle-label" class="roll"></label>
-        <header> 会议注册</header>
-        <nav id="drawer" class="roll">
+    <div class="nav_display" style="z-index: 32">
+        <input type="checkbox" id="drawer-toggle" name="drawer-toggle" class="roll" style="z-index: 32" />
+        <label for="drawer-toggle" id="drawer-toggle-label" class="roll" style="z-index: 32"></label>
+        <header> 首页</header>
+        <nav id="drawer" class="roll" style="z-index: 32">
             <ul>
+
                 <li>
                     <a href="home.html" style="font-size: 13pt; line-height:30px; color:#434343;">首页</a>
                 </li>
@@ -80,7 +81,6 @@
                 <li>
                     <a href="company.html" style="font-size: 13pt; line-height:30px; color:#434343;">赞助单位</a>
                 </li>
-
                 <li>
                     <a href="photo.html" style="font-size: 13pt; line-height:30px; color:#434343;">视频与照片</a>
                 </li>
@@ -89,46 +89,47 @@
         </nav>
     </div>
 
-    <div class="head_display">
+    <div class="head_display" style="z-index: 32">
         <div class="container">
             <div class="row header">
 
-                <div class="span10">
+                <div class="span10" style="width:1500px">
                     <!-- responsive dropdown menu -->
                     <div class="js-jquery-dropdown-wrapper">
-                        <ul class="js-jquery-dropdown" style="font-size: 13pt">
+                        <ul class="js-jquery-dropdown" style="font-size: 16pt;width: 1500px;font-weight: bold; margin: 0px 0 -20px 0;">
 
+                            
                             <li>
-                                <a href="home.html">首页</a>
+                                <a href="home.html" style="color:#434343;">首页</a>
                             </li>
                             <li>
-                                <a href="committee.html">组织机构</a>
+                                <a href="committee.html" style="color:#434343;">组织机构</a>
                             </li>
                             <li>
-                                <a href="program.html">大会程序</a>
+                                <a href="program.html" style="color:#434343;">大会程序</a>
                             </li>
                             <li>
-                                <a href="speaker.html">大会讲者</a>
+                                <a href="speaker.html" style="color:#434343;">大会讲者</a>
                             </li>
                             <li>
-                                <a href="registration.html">会议注册</a>
+                                <a href="registration.html" style="color:#434343;">会议注册</a>
                             </li>
                             <li>
-                                <a href="venue.html">交通和酒店</a>
+                                <a href="venue.html" style="color:#434343;">交通和酒店</a>
                             </li>
                             <li>
-                                <a href="company.html">赞助单位</a>
+                                <a href="company.html" style="color:#434343;">赞助单位</a>
                             </li>
                             <li>
-                                <a href="photo.html">视频与照片</a>
+                                <a href="photo.html" style="color:#434343;">视频与照片</a>
                             </li>
                         </ul>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="page-index-featured ">
         <div class="container page-text-columns">
             <div class="row" style=" box-shadow: darkgrey 0px 0px 30px 1px; border-radius:5px; margin:30px 0 0 0; ">
@@ -186,26 +187,60 @@
                         } */
                     </style>
 
-                    <table class=table11_6 style="margin:15px 0 0 28%;">
-                        <tr>
-                            <th><p style="color:rgb(255, 255, 255);font-size:15pt;">&emsp;&emsp;参会者身份&emsp;&emsp;</p></th>
-                            <th><p style="color:rgb(255, 255, 255);font-size:15pt;">&emsp;&emsp;9.18-11.4&emsp;&emsp;</p></th>
-                        </tr>
-                        <tr>
-                            <td><p style="color:grey;font-size:15pt;">&emsp;&emsp;CCF会员&emsp;&emsp;</p></td>
-                            <td><p style="color:grey;font-size:15pt;">&emsp;&emsp;1200&emsp;&emsp;</p></td>
-                        </tr>
-                        <tr>
-                            <td><p style="color:grey;font-size:15pt;">&emsp;&emsp;非CCF会员&emsp;&emsp;</p></td>
-                            <td><p style="color:grey;font-size:15pt;">&emsp;&emsp;1500&emsp;&emsp;</p></td>
-                        </tr>
-                    </table>
+                    
+
+                    <div class="table-c" style="margin-top: 10px;" align="center">
+                        <table width="80%">
+                            <tbody><tr>
+                                <th height="70px" width="50%" style="background-color:#2070b0; border: 2px solid white; font-size:20px; color: white;">参会者身份</th>
+                                <th width="50%" style="background-color:#2070b0; border: 2px solid white; font-size:20px; color: white;">注册费用（元）</th>
+                            </tr>
+                            <tr>
+                                <th height="70px" width="50%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; font-weight: normal;">CCF会员</th>
+                                <th width="50%" style="background-color:#e2f2fd; border: 2px solid white; font-size:20px; font-weight: normal">1200</th>
+                            </tr>
+                            <tr>
+                                <th height="70px" width="50%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; font-weight: normal;">非CCF会员</th>
+                                <th width="50%" style="background-color:#e2f2fd; border: 2px solid white; font-size:20px; font-weight: normal">1500</th>
+                            </tr>
+                            
+                        </tbody></table>
+                    </div>
+                    
 
 
+                    <!-- <table class=table11_6 style="margin: 15px auto;width: 80%;">
+                        <tr>
+                            <th><p style="color:rgb(255, 255, 255);font-size:15pt;margin: 0 10px 0 0;">&emsp;&emsp;参会者身份&emsp;&emsp;</p></th>
+                            <th><p style="color:rgb(255, 255, 255);font-size:15pt;margin: 0 10px 0 0;">&emsp;&emsp;费用（元）&emsp;&emsp;</p></th>
+                        </tr>
+                        <tr>
+                            <td><p style="color:grey;font-size:15pt;margin: 0 10px 0 0;">&emsp;&emsp;CCF会员&emsp;&emsp;</p></td>
+                            <td><p style="color:grey;font-size:15pt;margin: 0 10px 0 0;">&emsp;&emsp;1200&emsp;&emsp;</p></td>
+                        </tr>
+                        <tr>
+                            <td><p style="color:grey;font-size:15pt;margin: 0 10px 0 0;">&emsp;&emsp;非CCF会员&emsp;&emsp;</p></td>
+                            <td><p style="color:grey;font-size:15pt;margin: 0 10px 0 0;">&emsp;&emsp;1500&emsp;&emsp;</p></td>
+                        </tr>
+                    </table> -->
 
+                    <p style="color:grey;font-size:16pt;margin:30px 5% 0 5%;"><b>退费规则</b></p>
+                    <hr width="90%" color="#f3e549" size="8" style="margin:15px 0 0 5%;"></hr>
+                    
+                    <ul style="margin:10px 0% 0 8%;">               
+                    <li style="font-size: 13pt; line-height:30px;">由于CCF的原因需要退款的，全额退款；</li>
+                    <li style="font-size: 13pt; line-height:30px;">由于参会者重复缴费，申请退回其中一笔者，CCF收取所需退款费用30%的管理费，其余退回；</li>
+                    <li style="font-size: 13pt; line-height:30px;">由于不能参会，会议举行30日前申请退款：收取30%管理费，其余退回；</li>
+                    <li style="font-size: 13pt; line-height:30px;">由于不能参会，会议举行7日前申请退款：收取50%管理费，其余退回；</li>
+                    <li style="font-size: 13pt; line-height:30px;">由于不能参会，会议举行前7日内（含）申请退款：不予退款。</li>
+                    </ul>
+                    
                     <p style="color:grey;font-size:16pt;margin:30px 5% 0 5%;"><b>注册方式</b></p>
                     <hr width="90%" color="#f3e549" size="8" style="margin:15px 0 0 5%;"></hr>
                     <ul style="margin:10px 0% 0 8%;">                       
+                        <li style="font-size: 13pt; line-height:30px; ">
+                            进入CCF注册系统进行注册
+                        </li>
                         <li style="font-size: 13pt; line-height:30px; ">
                             CCF注册系统：<a style="border-bottom:1px dashed; " href="https://ccf.org.cn/132bhgT" target="_blank">https://ccf.org.cn/132bhgT</a>
                         </li>
@@ -226,8 +261,10 @@
                     </ul> -->
                     <p style="color:grey;font-size:16pt;margin:30px 5% 0 5%;"><b>酒店预订</b></p>
                     <hr width="90%" color="#f3e549" size="8" style="margin:15px 0 0 5%;"></hr>
-                    <ul style="margin:10px 0% 0 8%;">                       
-                        <li style="font-size: 13pt; line-height:50px;"><a href="venue.html">预订酒店点击此处</a></li> 
+                    <ul style="margin:10px 0% 0 8%;">          
+                        <li style="font-size: 13pt; line-height:30px;">为了方便各位老师参加此次会议，会务组已与开元名都酒店进行协商，为大家预留了一些房间，由于数量有限，需要预订的老师请
+                            <br>在“<a href="venue.html">交通和酒店</a>”栏扫描二维码进行酒店预订。</li>
+                        
                     </ul>
                     <ul width="90%" color="#f3e549" size="8" style="margin:0px 0 30px 5%;">
                     </hr>
