@@ -46,6 +46,7 @@
 	<link rel="icon" href="images/favicon.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<style type="text/css">
+
 		@media screen and (max-width: 1200px) {
 			.th_school {
 				font-size: 12px;
@@ -146,6 +147,13 @@
 				display: inline;
 			}
 		}
+		.borderImage {
+			margin:30px 5% 0 5%;
+			border:#ccc 1px;
+			/* width: 90%; */
+			border-radius:10%;
+			/* border: 1px solid burlywood; */
+		}
 	</style>
 </head>
 
@@ -230,7 +238,7 @@
 
 				<div id="content">
 					<div style="height:15px;"></div>
-					<p style="margin: 0 45px; font-size: 24px; font-weight: bold;">专题论坛</p>
+					<!-- <p style="margin: 0 45px; font-size: 24px; font-weight: bold;">专题论坛</p>
 					<hr width="90%" color="#f3e549" size="8" style="margin:10px 0 0 5%;">
 					
 					<ul id="speaker-ul" style="margin-left: 5.6%; margin-top: 11px; font-size: 18px; font-weight: bold;">
@@ -258,43 +266,131 @@
 						<a href="#xqlh">
 							<li style="margin-bottom: 10px;"> &nbsp;校企联航：企业研究生发展论坛</li>
 						</a>
-					</ul>
+					</ul> -->
 
 					<!-- 论坛1 -->
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:12px 5% 3% 5%;">
+					<p style="color:grey;font-size:16pt;margin:30px 5% 0 5%;"><b>论坛讲者</b></p>
+					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:12px 5% 0% 5%;">
 					
-					<p id="ztlt1" style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
-						<strong>专题论坛1：如何构建真实感的数字世界：渲染技术的最新进展</strong>
-					</p>
+					
+					<!-- 电脑版 -->
+					<div class="onlymobile">
+						<table width="85%" style="margin:0 auto;" >
+							<tbody>
+								
+								<tr>
+									<th width="35%" height="250px"><a href="#wangrui"><img class="borderImage" src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
+									<th width="5%"></th>
+									
+									<th width="35%"><a href="#wangrui"><img class="borderImage" src="static/img/zhangjuyong.jpg" height="200px" width="auto" ></a></th>
+								
+								</tr>
+
+
+								<tr>
+									<td class="th_school" style="text-align:left;vertical-align:top;"  >朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</th>
+									<td class="th_school"></th>
+									
+									<td class="th_school"style="text-align:left;vertical-align:top;"  > 张举勇，中国科学技术大学数学科学学院教授，获国家基金委优秀青年基金、中科院青促会优秀会员资助。2006年本科毕业于中科大计算机系，2011年博士毕业于新加坡南洋理工大学，2011年至2012年于瑞士联邦理工学院洛桑分校从事博士后研究。研究领域为计算机图形学与三维视觉，近期主要研究兴趣为基于神经隐式表示、逆向渲染与数值优化方法对真实物理世界进行高效高保真三维数字化，以及高真实感虚拟数字内容的创建。</th>
+								
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+					<!-- 手机版 -->
+					<div class="onlywap">
+						<table width="85%" style="margin:0 auto;">
+							<tbody>
+								
+								<tr>
+									<th width="35%"><a href="#wangrui"><img src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
+									<th width="5%"></th>
+									<th width="35%"><a href="#wangrui"><img src="static/img/zhangjuyong.jpg" height="200px" width="auto"></a></th>
+									
+								</tr>
+
+								<tr>
+									<th><a target="_blank" style="color:#777777;text-align:left;vertical-align:top;">朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</a></th>
+									<td class="_blank"></th>
+									<th><a target="_blank" style="color:#777777;text-align:left;vertical-align:top;">张举勇，中国科学技术大学数学科学学院教授，获国家基金委优秀青年基金、中科院青促会优秀会员资助。2006年本科毕业于中科大计算机系，2011年博士毕业于新加坡南洋理工大学，2011年至2012年于瑞士联邦理工学院洛桑分校从事博士后研究。研究领域为计算机图形学与三维视觉，近期主要研究兴趣为基于神经隐式表示、逆向渲染与数值优化方法对真实物理世界进行高效高保真三维数字化，以及高真实感虚拟数字内容的创建。</a></th>
+
+								</tr>
+
+
+							</tbody>
+						</table>
+						
+					</div>
+					
+
+
+					<!-- 电脑版 -->
+					<div class="onlymobile">
+						<table width="85%" style="margin:0 auto;" >
+							<tbody>
+								
+								<tr>
+									<th width="35%" height="250px"><a href="#wangrui"><img class="borderImage" src="static/img/duannan.jpg" height="200px" width="auto"></a></th>
+									<th width="5%"></th>
+									
+									<th width="35%"><a href="#wangrui"><img class="borderImage" src="static/img/zhangjuyong.jpg" height="200px" width="auto" ></a></th>
+								
+								</tr>
+
+
+								<tr>
+									<td class="th_school" style="text-align:left;vertical-align:top;"  >段楠博士，微软亚洲研究院资深首席研究员，自然语言计算团队研究经理，中国科学技术大学、西安交通大学兼职博导，天津大学兼职教授，主要从事自然语言处理、多模态智能、代码智能、机器推理等研究，多次担任NLP/AI学术会议程序主席和领域主席，发表学术论文100余篇，Google Scholar引用10000余次，持有专利20余项。</th>
+									<td class="th_school"></th>
+									
+									<td class="th_school"style="text-align:left;vertical-align:top;"  > 张举勇，中国科学技术大学数学科学学院教授，获国家基金委优秀青年基金、中科院青促会优秀会员资助。2006年本科毕业于中科大计算机系，2011年博士毕业于新加坡南洋理工大学，2011年至2012年于瑞士联邦理工学院洛桑分校从事博士后研究。研究领域为计算机图形学与三维视觉，近期主要研究兴趣为基于神经隐式表示、逆向渲染与数值优化方法对真实物理世界进行高效高保真三维数字化，以及高真实感虚拟数字内容的创建。</th>
+								
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+					<!-- 手机版 -->
+					<div class="onlywap">
+						<table width="85%" style="margin:0 auto;">
+							<tbody>
+								
+								<tr>
+									<th width="35%"><a href="#wangrui"><img src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
+									<th width="5%"></th>
+									<th width="35%"><a href="#wangrui"><img src="static/img/zhangjuyong.jpg" height="200px" width="auto"></a></th>
+									
+								</tr>
+
+								<tr>
+									<th><a target="_blank" style="color:#777777;text-align:left;vertical-align:top;">朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</a></th>
+									<td class="_blank"></th>
+									<th><a target="_blank" style="color:#777777;text-align:left;vertical-align:top;">张举勇，中国科学技术大学数学科学学院教授，获国家基金委优秀青年基金、中科院青促会优秀会员资助。2006年本科毕业于中科大计算机系，2011年博士毕业于新加坡南洋理工大学，2011年至2012年于瑞士联邦理工学院洛桑分校从事博士后研究。研究领域为计算机图形学与三维视觉，近期主要研究兴趣为基于神经隐式表示、逆向渲染与数值优化方法对真实物理世界进行高效高保真三维数字化，以及高真实感虚拟数字内容的创建。</a></th>
+
+								</tr>
+
+
+							</tbody>
+						</table>
+						
+					</div>
+			
+					
 					<!-- 电脑版 -->
 					<div class="onlymobile">
 						<table width="90%" style="margin:30px 0 0 5%;">
 							<tbody>
+								
 								<tr>
-									<th colspan="4" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-										<strong>论坛讲者</strong>（按姓氏拼音排序）
-									</th>
-								</tr>
-								<tr>
-									<th width="25%"><a href="#wangrui"><img src="static/img/speaker/2-1.png" height="200px" width="auto"></a></th>
-									<th width="25%"><a href="#guojie"><img src="static/img/speaker/2-2.png" height="200px" width="auto"></a></th>
-									<th width="25%"><a href="#huoyuchi"><img src="static/img/speaker/2-3.png" height="200px" width="auto"></a></th>
-									<th width="25%"><a href="#wangbeibei"><img src="static/img/speaker/2-4.png" height="200px" width="auto"></a></th>
+									<th width="100%"><a href="#wangrui"><img src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
 								</tr>
 
-								<tr>
-									<th><a target="_blank" style="color:#777777;">王锐(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">过洁</a></th>
-									<th><a target="_blank" style="color:#777777;">霍宇驰</a></th>
-									<th><a target="_blank" style="color:#777777;">王贝贝</a></th>
-								</tr>
 
 								<tr>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">南京大学</th>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">南京理工大学</th>
+									<th class="th_school">朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</th>
+								
 								</tr>
+
 							</tbody>
 						</table>
 					</div>
@@ -302,361 +398,41 @@
 					<div class="onlywap">
 						<table width="90%" style="margin:30px 0 0 5%;">
 							<tbody>
+								
 								<tr>
-									<th colspan="2" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-										<strong>论坛讲者</strong>（按姓氏拼音排序）
-									</th>
-								</tr>
-								<tr>
-									<th width="50%"><a href="#wangrui"><img src="static/img/speaker/2-1.png" height="200px" width="auto"></a></th>
-									<th width="50%"><a href="#guojie"><img src="static/img/speaker/2-2.png" height="200px" width="auto"></a></th>
+									<th width="100%"><a href="#wangrui"><img src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
+									
 								</tr>
 
 								<tr>
-									<th><a target="_blank" style="color:#777777;">王锐(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">过洁</a></th>
+									<th><a target="_blank" style="color:#777777;">朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</a></th>
 								</tr>
 
-								<tr>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">南京大学</th>
-								</tr>
+
 							</tbody>
 						</table>
-						<table width="90%" style="margin:-20px 0 0 5%;">
-							<tbody>
-								<tr>
-									<th colspan="2" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									</th>
-								</tr>
-								<tr>
-									<th width="50%"><a href="#huoyuchi"><img src="static/img/speaker/2-3.png" height="200px" width="auto"></a></th>
-									<th width="50%"><a href="#wangbeibei"><img src="static/img/speaker/2-4.png" height="200px" width="auto"></a></th>
-								</tr>
-
-								<tr>
-									<th><a target="_blank" style="color:#777777;">霍宇驰</a></th>
-									<th><a target="_blank" style="color:#777777;">王贝贝</a></th>
-								</tr>
-
-								<tr>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">南京理工大学</th>
-								</tr>
-							</tbody>
-						</table>
+						
 					</div>
-					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
-						<strong>论坛简介</strong>
-					</p>
-					<div class="row-fluid" style="margin:15px 5% 0px 5%; width:90%;">
-						<p style="font-size:17.2px; line-height:31px; text-align:justify;">
-							  虚实融合、数字孪生等领域对真实感渲染的要求与日俱增，渲染真实感的影响因素涵盖了高精度材质获取，具有真实感的材质模型，高效渲染方法以及高质量的降噪方法。在本论坛中，我们邀请到学术界和产业界的青年教师来分享他们在这些领域取得的最新进展，并且就其中的相关问题展开讨论。
-						</p>
-					</div>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="wangrui" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：王锐</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>个人简介</strong>：王锐，浙江大学教授，博士生导师，长期从事绘制研究，主要围绕虚拟现实与三维游戏中的图形绘制理论、算法与框架开展工作，在复杂光场高效采样、实时绘制算法、绘制架构的自动优化等方面做出了重要突破，取得了国际领先的研究创新成果，发表学术论文50余篇论文（TOP期刊论文十余篇）。承担多项国家省部项目，已获授权十余项专利，相关研究成果已成功应用于华为、西门子、网易游戏、中南卡通等公司。2011年度获教育部高等学校科学研究优秀成果奖科学技术进步奖一等奖（排名第3）。
-
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>ruiwang@zju.edu.cn</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="guojie" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：过洁</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：三维数字内容：智能化创造和高性能渲染</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：随着虚拟现实、元宇宙等新型数字经济产业的兴起和发展，三维数字内容创造步入了快车道。尤其是在元宇宙领域，允许每个用户进行三维数字内容的生产和编辑。然而，现阶段的三维数字内容创造严重依赖昂贵的软硬件设施和专业的操作人员，对普通用户门槛很高；现有的渲染平台也很难支持复杂三维场景的实时全局光照计算。本次报告将分享我们在三维数字内容智能化创造，尤其是面向普通大众的智能化材质建模和光照估计，以及基于智能帧外插的下一代高性能渲染框架等方向的研究成果。这些研究成果极大的降低了三维数字内容创作的门槛和成本，也提高了大规模三维场景渲染的性能，为未来虚拟现实、元宇宙等新型数字经济产业的持续发展提供技术保障。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：过洁，南京大学计算机科学与技术系副研究员，目前主要研究方向为真实感绘制、实时绘制、复杂材质分析建模以及虚拟现实技术等。曾主持国家自然科学基金两项、江苏省自然科学基金一项、“十三五”装发预研项目一项、博士后基金三项、企业合作项目多项。曾获得过江苏省计算机学会青年科技奖、江苏省工程师学会优秀青年工程师奖和陆增镛CAD&amp;CG高科技奖等科研奖励。迄今为止，发表高水平学术论文60余篇，包括计算机图形学领域顶级会议/期刊ACM
-							SIGGRAPH/SIGGRAPH ASIA、IEEE TVCG，视觉领域顶级会议CVPR、ICCV、ECCV 等。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>guojie@nju.edu.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="huoyuchi" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：霍宇驰</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：感知与呈现的底层计算融合</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：围绕光能传播过程，由三维空间到二维图像的前向计算服务于真实感呈现，与之相反的逆向计算服务于三维感知，两者构成信息科学中连接现实物理世界和数字虚拟世界的两个基本任务。两个任务逻辑上互逆共生，但在实现技术手段上却迥然不同：主流感知任务依赖于神经计算，而主流呈现任务依赖于物理计算。这一割裂不仅破坏了理论框架的平衡与和谐，还带来了研发成本和计算成本的上升。如何在算法和计算底层实现物理与神经计算的融合，是我们面临的新挑战和新机遇。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：霍宇驰，浙江大学百人计划研究员，博士生导师，之江实验室研究专家，浙江大学启真优秀青年学者。从事基于物理的光能计算及仿真的相关研究工作，探究光在三维真实世界中与几何、材质、光照等物理因素产生交互的物理传播与计算，研究计算机图形学、计算机视觉、计算光学和人工智能的交叉问题，包括真实感绘制、神经绘制、三维重建、图像修复、图像检索、类脑光学计算等。在SIGGRAPH，TOG，TVCG，CVPR，NIPS等顶会顶刊上发文十余篇，包括TOG封面等成果。
 
 
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>eehyc0@zju.edu.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="wangbeibei" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：王贝贝</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：真实感材质模型</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：现实世界中的材质是多种多样的：平滑的材质（比如金属、塑料），带微小结构的材质（比如划痕、亮片），以及一些微小纤维构成的材质（比如布料、木头）。那么在渲染中，如何来表示大千世界中的这些材质呢？围绕着材质表达这个主题，本次报告中将介绍本团队提出的几种不同的材质表达模型，分别解决了Microfacet模型中的多次散射问题、Microstructure模型的多尺度渲染问题以及提出了全新“SpongeCake”
-							Microflake模型。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：王贝贝，南京理工大学，副教授，硕士生导师，中国计算机学会CAD&amp;CG专委会委员。主要研究方向是计算机图形学渲染方向，包括了全局光照算法、参与性介质光线传递和复杂材质模型等。王贝贝分别于2009年、2014年在山东大学获得学士、博士学位，期间在巴黎高科进行两年联合培养。2015年在英国游戏公司Studio
-							Gobo参与Disney游戏Infinity
-							3的研发。2015年底到2017年初，在INRIA（法国信息与自动化研究所）从事博士后研究。之后加入到南京理工大学。共发表高水平论文30余篇，其中以第一作者/通讯作者在ACM TOG,
-							IEEE TVCG, CGF上发表论文二十余篇。EGSR, HPG程序委员会委员。 ACM TOG, Siggraph Asia, EG 等期刊会议审稿人。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>beibei.wang@njust.edu.cn</a>
-						</li>
-					</ul>
-
-					<!-- 论坛2 -->
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<p id="ztlt2" style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
-						<strong>专题论坛2：数字人前沿技术</strong>
-					</p>
+					
+					
+					
 					<!-- 电脑版 -->
 					<div class="onlymobile">
 						<table width="90%" style="margin:30px 0 0 5%;">
 							<tbody>
+								
 								<tr>
-									<th colspan="6" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-										<strong>论坛讲者</strong>（按姓氏拼音排序）
-									</th>
-								</tr>
-								<tr>
-									<th width="16.6%"><a href="#panye"><img src="static/img/speaker/6-1.png" height="150px" width="auto"></a></th>
-									<th width="16.6%"><a href="#wengdongdong"><img src="static/img/speaker/6-4.png" height="150px" width="auto"></a></th>
-									<th width="16.6%"><a href="#zhangjuyong"><img src="static/img/speaker/6-5.png" height="150px" width="auto"></a></th>
-									<th width="16.6%"><a href="#zhouxiaowei"><img src="static/img/speaker/6-6.png" height="150px" width="auto"></a></th>
-									<th width="16.6%"><a href="#minan"><img src="static/img/speaker/6-2.png" height="150px" width="auto"></a></th>
-									<th width="16.6%"><a href="#sundanlu"><img src="static/img/speaker/6-3.jpg" height="150px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">潘烨(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">翁冬冬</a></th>
-									<th><a target="_blank" style="color:#777777;">张举勇</a></th>
-									<th><a target="_blank" style="color:#777777;">周晓巍</a></th>
-									<th><a target="_blank" style="color:#777777;">米楠</a></th>
-									<th><a target="_blank" style="color:#777777;">孙丹璐</a></th>
+									<th width="100%"><a href="#wangrui"><img src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
 								</tr>
 
-								<tr>
-									<th class="th_school">上海交通大学</th>
-									<th class="th_school">北京理工大学</th>
-									<th class="th_school">中国科学技术大学</th>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">相芯科技研发总监</th>
-									<th class="th_school">Epic Games技术美术</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-
-					<!-- 手机版 -->
-					<div class="onlywap">
-						<table width="90%" style="margin:30px 0 0 5%;">
-							<tbody>
-								<tr>
-									<th colspan="3" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-										<strong>论坛讲者</strong>（按姓氏拼音排序）
-									</th>
-								</tr>
-								<tr>
-									<th width="33.3%"><a href="#panye"><img src="static/img/speaker/6-1.png" height="150px" width="auto"></a></th>
-									<th width="33.3%"><a href="#wengdongdong"><img src="static/img/speaker/6-4.png" height="150px" width="auto"></a></th>
-									<th width="33.3%"><a href="#zhangjuyong"><img src="static/img/speaker/6-5.png" height="150px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">潘烨(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">翁冬冬</a></th>
-									<th><a target="_blank" style="color:#777777;">张举勇</a></th>
-								</tr>
 
 								<tr>
-									<th class="th_school">上海交通大学</th>
-									<th class="th_school">北京理工大学</th>
-									<th class="th_school">中国科学技术大学</th>
-								</tr>
-							</tbody>
-						</table>
-						<table width="90%" style="margin:-20px 0 0 5%;">
-							<tbody>
-								<tr>
-									<th colspan="3" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									</th>
-								</tr>
-								<tr>
-									<th width="33.3%"><a href="#zhouxiaowei"><img src="static/img/speaker/6-6.png" height="150px" width="auto"></a></th>
-									<th width="33.3%"><a href="#minan"><img src="static/img/speaker/6-2.png" height="150px" width="auto"></a></th>
-									<th width="33.3%"><a href="#sundanlu"><img src="static/img/speaker/6-3.jpg" height="150px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">周晓巍</a></th>
-									<th><a target="_blank" style="color:#777777;">米楠</a></th>
-									<th><a target="_blank" style="color:#777777;">孙丹璐</a></th>
+									<th class="th_school">朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</th>
+								
 								</tr>
 
-								<tr>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">相芯科技研发总监</th>
-									<th class="th_school">Epic Games技术美术</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
-						<strong>论坛简介</strong>
-					</p>
-					<div class="row-fluid" style="margin:15px 5% 0px 5%; width:90%;">
-						<p style="font-size:17.2px; line-height:31px; text-align:justify;">
-							  在人工智能、虚拟现实等新技术浪潮的带动下，虚拟数字人制作过程得到有效简化、各方面性能获得飞跃式提升，开始从外观的数字化逐渐深入到行为的交互化、思想的智能化。以虚拟主播、虚拟员工等为代表的数字人成功进入大众视野，并以多元的姿态在影视、游戏、传媒、文旅、金融等众多领域大放异彩。
-						</p>
-					</div>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="panye" style="margin:30px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：潘烨</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：3D卡通角色动画生成与交互技术研发</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：在迪士尼、皮克斯等主流动画工作室，动画师运用 Maya，Houdini
-							等商业软件制作动画过程复杂、成本高昂。尤其在VR动画制作中，360°全景空间任何一点都可以成为观众观看的视点，传统动画采用镜头组接的制作方法已不再适合。报告人首先介绍运用混合现实技术突破了传统基于WIMP动画制作交互界面不直观的问题。以及融合深度学习技术，提高动画创作效率。
-						</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：潘烨，现任上海交通大学电子信息与电气工程学院，长聘教轨副教授、博士生导师。在虚拟现实与人机交互领域，有11年境外多所著名大学和研究院的学习和工作经历。2015年2月在伦敦大学学院获得博士学位，随后分别任职于UCL高级博士后研究员，伦敦沉浸式技术公司Digital
-							Catapult研究员；2017年9月任美国洛杉矶迪士尼研究院博士后研究员后晋升为副研究员。因在虚拟角色，包括混合现实环境中3D角色交互技术、虚拟现实环境中化身、新型远程呈现系统及交互技术三个方面的贡献，分别于2019年入选《福布斯中国30位30岁以下（科学）精英榜》。在国际顶级会议和期刊发表学术论文25篇（第一作者16篇，CCF
-							A类9篇），授权美国专利2项。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>whitneypanye@sjtu.edu.cn</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="wengdongdong" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：翁冬冬</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：高逼真数字人构建与应用</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：本次讲座主要介绍北京理工大学团队在高写实数字人方向的一些研究进展。主要包括内容：1）高写实数字人获取流程中的硬件基础设施和处理管线
-							2）高写实数字人的智能驱动（语音和动作）3）高写实数字人AIGC展望。同时讲座还将探讨未来在混合显示场景下人与数字人共生的可能。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：翁冬冬，北京理工大学光电学院研究员，博士生导师。主要研究方向为虚拟现实与增强现实、人机交互、高逼真数字人主要从事增强现实与虚拟现实以及人机交互方面的研究工作。近年来在虚拟现实与增强现实，人机交互技术，大范围增强现实系统，精确位置跟踪算法与装置，高逼真数字人等方面进行了深入研究。作为项目负责人主持完成国家高科技发展计划(863计划)重点项、十三五国家重大专项、国家自然科学基金青年/面上基金项目等多项国家和省部级课题。
-
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>crgj@bit.edu.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="zhangjuyong" style="margin:30px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：张举勇</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：基于单目视频的高保真数字人建模与驱动</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：高效高保真三维数字内容生成是计算机图形学、三维视觉等领域的核心研究问题。传统的建模与驱动方法依赖昂贵的采集设备、复杂的制作流程、以及专业工作人员的大量手工交互，这极大限制了应用群体与应用范围。近年来，报告人课题组围绕单目视频输入下的高保真数字人建模与驱动开展了多方面的研究工作，包括：可驱动的高精度三维头部建模、穿衣人体建模与驱动、语音驱动的数字人等方面的研究工作。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：张举勇，中国科学技术大学数学科学学院特任教授，国家基金委优秀青年基金获得者。2006年本科毕业于中科大计算机系，2011年博士毕业于新加坡南洋理工大学，2011年至2012年于瑞士联邦理工学院洛桑分校从事博士后研究。研究领域为计算机图形学与三维视觉，近期主要研究兴趣为基于神经隐式表示、逆向渲染与数值优化方法对真实物理世界进行高效高保真三维数字化，以及高真实感虚拟数字内容的创建。
-
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>juyong@ustc.edu.cn
-							</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="zhouxiaowei" style="margin:30px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：周晓巍</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：基于少量相机的自由视点视频生成</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：自由视点视频是沉浸式媒体的重要形态，在远程会议、远程教育、体育直播、互动娱乐等领域有着广泛应用。已有的自由视点视频拍摄系统一般需要稠密的相机阵列对场景进行多视角拍摄，硬件成本高、便携性差、数据处理传输开销大。本报告将介绍基于少量RGB相机的自由视点视频生成技术，主要包括三维人体的隐式神经表示方法以及基于该表示的多人表演捕捉方法，并探讨未来发展方向。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：周晓巍，浙江大学“百人计划”研究员，国家级青年人才项目入选者。研究方向主要包括计算机视觉、图形学及其在混合现实、机器人等领域的应用。担任国际顶级期刊IJCV编委、顶级会议CVPR
-							2021和ICCV
-							2021领域主席，中国图象图形学报青年编委，图形学与混合现实研讨会（GAMES）执行委员会主席，CSIG三维视觉专委会常务委员。相关工作十余次获得视觉顶级会议口头报告，多次入选CVPR最佳论文候选。曾获得浙江省自然科学一等奖，陆增镛CAD&amp;CG高科技奖一等奖，CCF
-							CAD&amp;CG优秀图形开源贡献奖。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>xwzhou@zju.edu.cn</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="minan" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：米楠</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：AvatarX虚拟人平台的行业应用与落地场景</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：虚拟人相关的制作技术近年来有了新的发展，但是高质量的内容生产依然非常困难。另外，终端用户对于不同内容质量，不同平台，不同的互动性要求也是多种多样的。报告介绍了相芯AvatarX平台针对离线，PC高质量实时，移动端等不同平台的场景需求，提出的解决方案。结合智能图形与AI技术，加速用户内容生产效率的工程实践以及落地应用场景分析。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：米楠，12年硕士毕业于浙江大学CAD&amp;CG实验室。主要研究方向为高性能实时渲染引擎，基于物理的动画及仿真，AI智能图形等方向。加入相芯前，有过多年AAA级游戏引擎研发经历，专注于实时引擎底层架构的演进与工程落地。
-
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="sundanlu" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：孙丹璐</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：Metahuman：高品质实时数字人背后的技术
-						</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：目前实时数字人应用的需求日益增长，数字人制作成本成为了最大的门槛，基于Metahuman
-							Creater可以快速、低成本生成包含完整骨骼可用于实时驱动的数字人。报告基于Metahuman的高品质实时数字人的生成及应用技术，介绍Metahuman系统的底层逻辑Rig
-							Logic系统、DNA文件和DMT算法，以及新推出的AutoRigging功能（用户上传自定义模型，自动生成匹配的metahuman角色）。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：孙丹璐，Epic Games技术美术。自2019加入Epic Games以来，主要研究方向为实时渲染和数字人技术。
-
-						</li>
-					</ul>
-
-					<!-- 论坛3 -->
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<p id="ztlt3" style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
-						<strong>专题论坛3：CAD/CAE/CAM工业软件</strong>
-					</p>
-					<!-- 电脑版 -->
-					<div class="onlymobile">
-						<table width="90%" style="margin:30px 0 0 5%;">
-							<tbody>
-								<tr>
-									<th colspan="5" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-										<strong>论坛讲者</strong>（按姓氏拼音排序）
-									</th>
-								</tr>
-								<tr>
-									<th width="20%"><a href="#chenzhonggui"><img src="static/img/speaker/4-1.png" height="200px" width="auto"></a></th>
-									<th width="20%"><a href="#shenliyong"><img src="static/img/speaker/4-2.png" height="200px" width="auto"></a></th>
-									<th width="20%"><a href="#wanghu"><img src="static/img/speaker/4-3.png" height="200px" width="auto"></a></th>
-									<th width="20%"><a href="#xugang"><img src="static/img/speaker/4-4.png" height="200px" width="auto"></a></th>
-									<th width="20%"><a href="#liangrui"><img src="static/img/speaker/4-5.png" height="200px" width="auto"></a></th>
-								</tr>
-
-								<tr>
-									<th><a target="_blank" style="color:#777777;">陈中贵(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">申立勇</a></th>
-									<th><a target="_blank" style="color:#777777;">王琥</a></th>
-									<th><a target="_blank" style="color:#777777;">徐岗</a></th>
-									<th><a target="_blank" style="color:#777777;">梁锐</a></th>
-								</tr>
-
-								<tr>
-									<th class="th_school">厦门大学</th>
-									<th class="th_school">中国科学院大学</th>
-									<th class="th_school">湖南大学</th>
-									<th class="th_school">杭州电子科技大学计算机学院</th>
-									<th class="th_school">中望软件CAE研发中心副总监</th>
-								</tr>
 							</tbody>
 						</table>
 					</div>
@@ -664,210 +440,38 @@
 					<div class="onlywap">
 						<table width="90%" style="margin:30px 0 0 5%;">
 							<tbody>
+								
 								<tr>
-									<th colspan="3" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-										<strong>论坛讲者</strong>（按姓氏拼音排序）
-									</th>
-								</tr>
-								<tr>
-									<th width="33.3%"><a href="#chenzhonggui"><img src="static/img/speaker/4-1.png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#shenliyong"><img src="static/img/speaker/4-2.png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#wanghu"><img src="static/img/speaker/4-3.png" height="130px" width="auto"></a></th>
+									<th width="100%"><a href="#wangrui"><img src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
+									
 								</tr>
 
 								<tr>
-									<th><a target="_blank" style="color:#777777;">陈中贵(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">申立勇</a></th>
-									<th><a target="_blank" style="color:#777777;">王琥</a></th>
+									<th><a target="_blank" style="color:#777777;">朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</a></th>
 								</tr>
 
-								<tr>
-									<th class="th_school">厦门大学</th>
-									<th class="th_school">中国科学院大学</th>
-									<th class="th_school">湖南大学</th>
-								</tr>
+
 							</tbody>
 						</table>
-						<table width="90%" style="margin:-20px 0 0 5%;">
-							<tbody>
-								<tr>
-									<th colspan="2" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									</th>
-								</tr>
-								<tr>
-									<th width="33.3%"><a href="#xugang"><img src="static/img/speaker/4-4.png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#liangrui"><img src="static/img/speaker/4-5.png" height="130px" width="auto"></a></th>
-								</tr>
-
-								<tr>
-									<th><a target="_blank" style="color:#777777;">徐岗</a></th>
-									<th><a target="_blank" style="color:#777777;">梁锐</a></th>
-								</tr>
-
-								<tr>
-									<th class="th_school">杭州电子科技大学计算机学院</th>
-									<th class="th_school">中望软件CAE研发中心副总监</th>
-								</tr>
-							</tbody>
-						</table>
+						
 					</div>
-					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
-						<strong>论坛简介</strong>
-					</p>
-					<div class="row-fluid" style="margin:15px 5% 0px 5%; width:90%;">
-						<p style="font-size:17.2px; line-height:31px; text-align:justify;">
-							  CAD/CAE/CAM工业软件是制造业的基石，是驱动智能制造发展的关键技术之一。随着我国工业现代化程度不断提高，实现国产化以及自主可控的工业软件越来越引起产学研各界的重视。本专题论坛邀请了来自学术界和的工业界多位专家，与大家分享目前学术界的理论成果和应用实践以及工业界的发展现状、人才需求和主要挑战等，旨在加强学术界与工业界交流合作，促进CAD/CAE/CAM国产工业软件在人才培养、理论研究和行业应用等方面的协同发展。
-						</p>
-					</div>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="chenzhonggui" style="margin:30px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：陈中贵</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>个人简介</strong>：陈中贵，厦门大学信息学院教授、博士生导师，中国计算机学会高级会员、中国图象图形学学会高级会员。2009年6月在浙江大学获博士学位；2009年-2010年在香港大学计算机系从事博士后研究；2017年-2018年在美国卡耐基梅陇大学访学。主要从事三维几何建模与处理方面研究，已发表学术论文五十余篇，其中多篇论文发表在图形学领域重要期刊如ACM
-							TOG、IEEE
-							TVCG、CAD、CGF、CAGD等；授权国家发明专利6项，主持国家自然科学基金项目3项、省自然科学基金面上项目2项，作为主要成员参与海峡基金联合重点项目1项、国基面上项目2项、海外及港澳学者合作基金1项。担任国际期刊The
-							Visual Computer编委，以及三维几何处理领域主要国际学术会议程序委员会委员，如SPM、GMP、SMI、CAD/Graphics等。<br>个人主页：<a href="http://graphics.xmu.edu.cn/~zgchen/">http://graphics.xmu.edu.cn/~zgchen/</a>
 
-
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>chenzhonggui@xmu.edu.cn</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="shenliyong" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：申立勇</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：数字化设计、分析与制造一体化中的数学建模方法</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：几何数字化设计是计算机图形学，计算机三维视觉，数字化制造，AR等领域的核心问题，包含计算几何，几何设计与处理，图形图像处理，路径规划与运动控制，几何机器学习等，其中一个共性关键技术就是数理模型建立、分析与求解。目前智能制造作为国家战略要地，其中关键数学理论与方法相关研究已经列入十四五规划，同时也给出多个项目支持。这里将简要给出CAD-CAM-CNC数字化智能加工一体化流程中一些数学问题。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：申立勇，中国科学院大学数学科学学院教授，密码学院副院长，中科院大数据与知识发现重点实验室成员，国家数学与交叉中心数学与先进制造交叉研究部合作成员，辽宁省智能化数控工程技术研究中心特聘专家。研究兴趣包括计算几何，计算机辅助设计，数字化设计与数控技术，数据处理等。在国内外专业核心期刊TOG、CAD、CAGD、JSSC及国际学术会议上发表学术论文60余篇；先后主持国家重点研发计划课题，国防专项课题，北京市重点专项，国家自然科学基金青年项目和面上项目。
-
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>lyshen@ucas.ac.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="wanghu" style="margin:30px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：王琥</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：面向行业的自主化智能设计平台开发</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：多学科智能优化是实现现代多学科设计领域设计的关键问题，也是计算力学跨学科的研究热点。大量的科研人员和工程师基于国外成熟商用或开源软件完成复杂产品设计或研究工作，如HyperStudy、Isight、ModelFrontier、Optimus等。目前，这些商业软件平台经过多年的版本迭代，形成了各自鲜明的特色和操作特点，但这类软件设计平台功能大同小异，主要涵盖实验设计、敏度分析、近似建模、优化、以及随机性分析等模块，并涉及到各类多学科软件的集成调用、数据交互、高性能计算等。尽管主流软件具备功能体系完善，但由于强调通用性，针对不同的行业，很多功能冗余，软件利用率低，且大幅度增加了软件的学习成本。为了打破国外商业软件在设计领域的垄断，针对目前商业软件的短板，提升我国自主产品设计的创新和设计能力，迫切需要以行业应用为切入点、自主开发面向行业的多学科智能优化设计平台，使其具备大规模计算能力，调度各学科算法，以较低的使用和学习成本赋能行业中的特定工程实际问题。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：王琥，湖南大学教授，博士生导师，湖南迈曦软件有限责任公司联合创始人，教育部新世纪人才，岳麓学者。主要从事智能结构优化方法、快速计算方法，参数反求理论以及高性能计算等相关研究及软件开发工作。获教育部科技进步一等奖，机械工业部科技进步二等奖。主持国家重点研发计划课题，863重点项目课题，国家自然科学基金，湖南省自然科学基金重点项目多项，出版专著1部，发表SCI论文100余篇，引用2000余次，获Emarld出版社杰出论文奖，授权发明专利8项，软件著作权十余项。
-
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>wanghu@hnu.edu.cn
-							</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="xugang" style="margin:30px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：徐岗</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：iGame
-							v1.0:基于等几何分析的建模仿真优化一体化软件平台</li>
-						<li style="font-size: 13pt; line-height:31px;"><strong>报告摘要</strong>：基于等几何分析（iso-geometric
-							analysis）思想，可实现几何建模、物理仿真、结构优化的真正无缝融合。本报告将汇报课题组基于等几何分析的三维产品数字化建模、仿真与优化一体化软件平台iGame的研发进展，介绍iGame
-							v1.0 版本的理论基础、功能特性、组织架构及特色应用，并分享将来的开发计划。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：徐岗，杭州电子科技大学计算机学院副院长，教授，博士生导师，CCF杰出会员。研究兴趣包括几何计算、等几何仿真分析、网格生成、图形图像智能处理等。曾获得全国首届“几何设计与计算”青年学者奖，陆增镛CAD&amp;CG高科技奖二等奖，入选浙江省杰青（2016），浙江省“万人计划”（2018）及浙江省首批高校创新领军人才（2020）。以负责人身份主持在研或完成国家自然科学基金项目7项（包括重点类项目2项，面上项目3项），主持国家重点研发计划课题、中物院挑战计划专题项目、国家数值风洞重大工程课题，浙江省重点研发计划等重要科研项目多项，并主持研发了面向天枢人工智能平台的深度学习可视化系统。担任GDC
-							2022 程序委员会共同主席及GAMES执委会常务委员.<br>个人主页：<a href="http://mypage.hdu.edu.cn/xugang">http://mypage.hdu.edu.cn/xugang</a>
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>gxu@hdu.edu.cn</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="liangrui" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：梁锐</li>
-						<!-- <li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：数字化设计、分析与制造一体化中的数学建模方法</li> -->
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：介绍广州中望龙腾软件股份有限公司具有完全自主知识产权的多物理场仿真软件ZWSim与开放式通用前后处理平台
-							ZWMeshWorks，以CAD\CAE一体化作为主导思想，坚持走模块化的开放式多物理场仿真平台的技术路线，克服了程序架构与仿真计算上的诸多难题，在研发过程中总结并积累了相关经验，为研发我国真正意义上的自主可控商业仿真软件进行了探索。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：梁锐，中望软件CAE研发中心副总监，负责结构仿真软件产品开发。英国斯旺西大学辛克维奇中心博士，研究领域为计算固体力学、计算流体力学、非线性有限元。曾主持英国联合利华公司“柔性纤维水动力学”关键算法及软件研发项目，解决了三维细长纤维流固耦合问题，并获得英国工程物理研究委员会全额博士奖学金。博士毕业回国后长期耕耘在工业软件和应用领域，加入中望后主导了复合材料、结构大变形、参数优化、疲劳分析等功能的开发。
-
-						</li>
-						<!-- <li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>lyshen@ucas.ac.cn</a>
-						</li> -->
-					</ul>
-
-					<!-- 论坛4 -->
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<p id="ztlt4" style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
-						<strong>专题论坛4：数据与图形融合发展机遇和挑战</strong>
-					</p>
+					
 					<!-- 电脑版 -->
 					<div class="onlymobile">
 						<table width="90%" style="margin:30px 0 0 5%;">
 							<tbody>
+								
 								<tr>
-									<th colspan="4" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-										<strong>论坛讲者</strong>（按姓氏拼音排序）
-									</th>
-								</tr>
-								<tr>
-									<th width="25%"></th>
-									<th width="25%"><a href="#wangyunhai"><img src="static/img/speaker/5-1.png" height="150px" width="auto"></a></th>
-									<th width="25%"><a href="#mayuxin"><img src="static/img/speaker/mayuxin.png" height="150px" width="auto"></a></th>
-									<th width="25%"></th>
+									<th width="100%"><a href="#wangrui"><img src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
 								</tr>
 
-								<tr>
-									<th></th>
-									<th><a target="_blank" style="color:#777777;">汪云海(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">马昱欣(主持人)</a></th>
-									<th></th>
-								</tr>
 
 								<tr>
-									<th></th>
-									<th class="th_school">山东大学</th>
-									<th class="th_school">南方科技大学</th>
-									<th></th>
-								</tr>
-							</tbody>
-						</table>
-						<table width="90%" style="margin:-20px 0 0 5%;">
-							<tbody>
-								<tr>
-									<th colspan="5" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									</th>
-								</tr>
-								<tr>
-									<th width="20%"><a href="#lichenhui"><img src="static/img/speaker/5-6.png" height="150px" width="auto"></a></th>
-									<th width="20%"><a href="#qinhongxing"><img src="static/img/speaker/5-3(1).png" height="150px" width="auto"></a></th>
-									<th width="20%"><a href="#shilei"><img src="static/img/speaker/5-2.png" height="150px" width="auto"></a></th>
-									<th width="20%"><a href="#zengwei"><img src="static/img/speaker/5-5.png" height="150px" width="auto"></a></th>
-									<th width="20%"><a href="#zhouzhiguang"><img src="static/img/speaker/5-4.png" height="150px" width="auto"></a></th>
+									<th class="th_school">朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</th>
+								
 								</tr>
 
-								<tr>
-									<th><a target="_blank" style="color:#777777;">李晨辉</a></th>
-									<th><a target="_blank" style="color:#777777;">秦红星</a></th>
-									<th><a target="_blank" style="color:#777777;">时磊</a></th>
-									<th><a target="_blank" style="color:#777777;">曾伟</a></th>
-									<th><a target="_blank" style="color:#777777;">周志光</a></th>
-								</tr>
-
-								<tr>
-									<th class="th_school">华东师范大学</th>
-									<th class="th_school">重庆大学</th>
-									<th class="th_school">北京航空航天大学</th>
-									<th class="th_school">香港科技大学（广州）</th>
-									<th class="th_school">杭州电子科技大学</th>
-								</tr>
 							</tbody>
 						</table>
 					</div>
@@ -875,210 +479,38 @@
 					<div class="onlywap">
 						<table width="90%" style="margin:30px 0 0 5%;">
 							<tbody>
+								
 								<tr>
-									<th colspan="2" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-										<strong>论坛讲者</strong>（按姓氏拼音排序）
-									</th>
-								</tr>
-								<tr>
-									<th width="50%"><a href="#wangyunhai"><img src="static/img/speaker/5-1.png" height="130px" width="auto"></a></th>
-									<th width="50%"><a href="#mayuxin"><img src="static/img/speaker/mayuxin.png" height="130px" width="auto"></a></th>
+									<th width="100%"><a href="#wangrui"><img src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
+									
 								</tr>
 
 								<tr>
-									<th><a target="_blank" style="color:#777777;">汪云海(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">马昱欣(主持人)</a></th>
+									<th><a target="_blank" style="color:#777777;">朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</a></th>
 								</tr>
 
-								<tr>
-									<th class="th_school">山东大学</th>
-									<th class="th_school">南方科技大学</th>
-								</tr>
+
 							</tbody>
 						</table>
-						<table width="90%" style="margin:-20px 0 0 5%;">
-							<tbody>
-								<tr>
-									<th colspan="3" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									</th>
-								</tr>
-								<tr>
-									<th width="33.3%"><a href="#lichenhui"><img src="static/img/speaker/5-6.png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#qinhongxing"><img src="static/img/speaker/5-3(1).png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#shilei"><img src="static/img/speaker/5-2.png" height="130px" width="auto"></a></th>
-								</tr>
-
-								<tr>
-									<th><a target="_blank" style="color:#777777;">李晨辉</a></th>
-									<th><a target="_blank" style="color:#777777;">秦红星</a></th>
-									<th><a target="_blank" style="color:#777777;">时磊</a></th>
-								</tr>
-
-								<tr>
-									<th class="th_school">华东师范大学</th>
-									<th class="th_school">重庆大学</th>
-									<th class="th_school">北京航空航天大学</th>
-								</tr>
-							</tbody>
-						</table>
-						<table width="90%" style="margin:-20px 0 0 5%;">
-							<tbody>
-								<tr>
-									<th colspan="2" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									</th>
-								</tr>
-								<tr>
-									<th width="50%"><a href="#zengwei"><img src="static/img/speaker/5-5.png" height="135px" width="auto"></a></th>
-									<th width="50%"><a href="#zhouzhiguang"><img src="static/img/speaker/5-4.png" height="135px" width="auto"></a></th>
-								</tr>
-
-								<tr>
-									<th><a target="_blank" style="color:#777777;">曾伟</a></th>
-									<th><a target="_blank" style="color:#777777;">周志光</a></th>
-								</tr>
-
-								<tr>
-									<th class="th_school">香港科技大学（广州）</th>
-									<th class="th_school">杭州电子科技大学</th>
-								</tr>
-							</tbody>
-						</table>
+						
 					</div>
-					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
-						<strong>论坛简介</strong>
-					</p>
-					<div class="row-fluid" style="margin:15px 5% 0px 5%; width:90%;">
-						<p style="font-size:17.2px; line-height:31px; text-align:justify;">
-							  数据可视化源于计算机图形学，通过将复杂抽象的数据转化为形象直观的图形，可视化使得用户以视觉理解的方式直观地探索数据，以发现数据中隐含的规律。经过将近30年的发展，可视化学科逐渐凝练出具有特色的关键科学问题和研究方法。与此同时，借助GPU与AI，图形学技术也有了飞速发展，图形学中很多基本问题有了更好的解决方案。在该论坛中，我们将深入探讨数据与图形融合发展机遇和挑战，
-							探讨可视化学科的发展趋势。
-						</p>
-					</div>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="wangyunhai" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：汪云海</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>个人简介</strong>：汪云海，山东大学计算机科学与技术学院教授，国家高层次青年人才计划入选者。主要从事数据可视化、图形学与人机交互领域的研究，在ACM
-							TOG、IEEE TVCG、ACM SIGGAPH (Asia)、ACM CHI、IEEE VIS、IEEE VR、ICCV、NeurIPS等权威期刊和会议发表论文60余篇，获得ACM
-							CHI 2021 最佳论文提名奖、IEEE VIS 2021最佳论文提名奖等奖项。曾获山东省自然科学一等奖、山东省教学成果奖一等奖等，担任Computer Graphics
-							Forum、 Visual
-							Informatics等期刊编委、IEEE VIS 2022 会议Panel主席等。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>cloudseawang@gmail.com</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="mayuxin" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主持人</strong>：马昱欣</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>个人简介</strong>：马昱欣，南方科技大学计算机科学与工程系助理教授，先后于2012年、2017年在浙江大学计算机科学与技术学院获得学士与博士学位，曾任美国亚利桑那州立大学VADER实验室博士后。主要研究方向为数据可视化与可视分析，包括基于可视分析的可解释人工智能方法、高维数据可视分析、时空数据的可视分析与应用等。目前发表论文20余篇，在TVCG、CG&amp;A、IEEE
-							VIS、ACM CHI等国际重要期刊会议上发表多篇长文，曾获得ACM CHI
-							2022最佳论文提名、CVM期刊年度最佳论文提名、陆增镛CAD&amp;CG高科技奖（三等奖）等奖项，以及参与国内首部可视化专著和教材的编写工作。目前担任Visual
-							Informatics期刊青年编委；曾担任IEEE VIS、ChinaVis、PacificVis Visualization Meets AI
-							Workshop等国内外会议的程序委员会委员。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>mayx@sustech.edu.cn</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="lichenhui" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：李晨辉</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：李晨辉，华东师范大学计算机科学与技术学院副教授，院长助理，中国图象图形学会可视化与可视分析专委会委员。博士毕业于香港理工大学，专注数据可视化、智能设计、时空大数据分析研究。近年来在VIS、TVCG、TMM、CGF等期刊或会议上发表学术论文20余篇，曾获SiggraphAsia2017可视化研讨会最佳论文奖，2020年度上海市科技进步奖特等奖。担任ChinaVis2018会议组委会委员，VINCI2019国际会议本地主席，ChinaVis2022海报主席。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>chli@cs.ecnu.edu.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="qinhongxing" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：秦红星</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：秦红星，重庆大学计算机学院教授、博士生导师。主要从事计算机图形学和数据可视化领域的研究，在ACM TOG、IEEE
-							TVCG、CGF等图形学和可视化权威期刊和会议发表论文30余篇。入选重庆市第一届青年骨干教师。曾获重庆市自然科学三等奖。
 
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>qinhx@cqu.edu.cn
-							</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="shilei" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：时磊</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：时磊，北京航空航天大学计算机学院教授、博士生导师。本硕博毕业于清华大学计算机系，曾任IBM中国研究院研究经理、中科院软件所计算机科学国家重点实验室研究员，主要研究方向为大数据挖掘与可视分析。已主持国家重点研发计划课题、自科基金等国家级项目。在CCF-A类国际期刊与国际会议TVCG、VIS、CHI、TKDE、KDD等发表论文近百篇。获IEEE
-							VIS可视分析挑战赛单项冠军、陆增镛CAD&amp;CG高科技奖等国内外学术奖项。多次担任A类国际会议的程序委员会委员，PacificVis大会短论文主席，ChinaVis大会论文主席，FCS等SCI期刊编委。
-
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>lleishi@buaa.edu.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="zengwei" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：曾伟</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：曾伟，香港科技大学（广州）信息枢纽计算媒体与艺术（CMA）学域以及数据科学与分析（DSA）学域双聘助理教授，获得新加坡南洋理工大学计算机专业本科（2011年）和博士（2015年）学位。加入HKUST之前，他曾担任中国科学院深圳先进技术研究院副研究员，以及苏黎世联邦理工大学新加坡未来城市实验室高级研究员。发表高水平论文30余篇，其中包括十多篇IEEE
-							TVCG (IEEE VIS), CGF (EuroVis)数据可视化方向旗舰期刊与会议论文，获得ICIV'17、VINCI'19最佳论文，以及ChinaVis'21最佳论文提名奖。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>weizeng@ust.hk</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="zhouzhiguang" style="margin:30px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：周志光</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：周志光，杭州电子科技大学特聘教授，人工智能与大数据可视分析团队负责人。主要方向包括数据可视化、可视分析、人机交互等。在IEEE
-							VIS、TVCG、CG&amp;A、NeuroComputing、计算机学报、软件学报、CAD学报等期刊和会议上发表论文30余篇。入选浙江省高校领军人才培养计划、浙江省院士结对培养青年英才计划。获陆增镛CAD&amp;CG高科技三等奖，以核心成员身份参与获得浙江省科学技术进步三等奖。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>zhgzhou@hdu.edu.cn</a>
-						</li>
-					</ul>
-
-
-					<!-- 论坛5 -->
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<p id="ztlt5" style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
-						<strong>专题论坛5：三维视觉与无人系统前沿进展与应用</strong>
-					</p>
+					
 					<!-- 电脑版 -->
 					<div class="onlymobile">
 						<table width="90%" style="margin:30px 0 0 5%;">
 							<tbody>
+								
 								<tr>
-									<th colspan="4" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-										<strong>论坛讲者</strong>（按姓氏拼音排序）
-									</th>
-								</tr>
-								<tr>
-									<th width="25%"><a href="#lindi"><img src="static/img/speaker/1-1.png" height="200px" width="auto"></a></th>
-									<th width="25%"><a href="#guoyulan"><img src="static/img/speaker/1-2.png" height="200px" width="auto"></a></th>
-									<th width="25%"><a href="#xukai"><img src="static/img/speaker/1-6.png" height="200px" width="auto"></a></th>
-									<th width="25%"><a href="#zhupengfei"><img src="static/img/speaker/1-4.png" height="200px" width="auto"></a></th>
+									<th width="100%"><a href="#wangrui"><img src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
 								</tr>
 
-								<tr>
-									<th><a target="_blank" style="color:#777777;">林迪(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">郭裕兰</a></th>
-									<th><a target="_blank" style="color:#777777;">徐凯</a></th>
-									<th><a target="_blank" style="color:#777777;">朱鹏飞</a></th>
-								</tr>
 
 								<tr>
-									<th class="th_school">天津大学</th>
-									<th class="th_school">国防科技大学</th>
-									<th class="th_school">国防科技大学</th>
-									<th class="th_school">天津大学</th>
+									<th class="th_school">朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</th>
+								
 								</tr>
+
 							</tbody>
 						</table>
 					</div>
@@ -1086,693 +518,24 @@
 					<div class="onlywap">
 						<table width="90%" style="margin:30px 0 0 5%;">
 							<tbody>
+								
 								<tr>
-									<th colspan="2" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-										<strong>论坛讲者</strong>（按姓氏拼音排序）
-									</th>
+									<th width="100%"><a href="#wangrui"><img src="static/img/zhujun.jpg" height="200px" width="auto"></a></th>
+									
 								</tr>
+
 								<tr>
-									<th width="50%"><a href="#lindi"><img src="static/img/speaker/1-1.png" height="150px" width="auto"></a></th>
-									<th width="50%"><a href="#guoyulan"><img src="static/img/speaker/1-2.png" height="150px" width="auto"></a></th>
+									<th><a target="_blank" style="color:#777777;">朱军，清华大学计算机系Bosch AI教授、IEEE Fellow，清华大学人工智能研究院副院长，曾任卡内基梅隆大学兼职教授。2001-2009年获清华大学学士和博士学位，主要从事机器学习研究，担任国际著名期刊IEEE TPAMI的副主编，担任ICML、NeurIPS、ICLR等（资深）领域主席20余次。获求是杰出青年奖、科学探索奖、中国计算机学会自然科学一等奖、吴文俊人工智能自然科学一等奖、ICLR国际会议杰出论文奖等，入选万人计划领军人才、中国计算机学会青年科学家、MIT TR35中国先锋者等。</a></th>
 								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">林迪(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">郭裕兰</a></th>
-								</tr>
-								<tr>
-									<th class="th_school">天津大学</th>
-									<th class="th_school">国防科技大学</th>
-								</tr>
+
+
 							</tbody>
 						</table>
-						<table width="90%" style="margin:-20px 0 0 5%;">
-							<tbody>
-								<tr>
-									<th colspan="2" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									</th>
-								</tr>
-								<tr>
-									<th width="50%"><a href="#xukai"><img src="static/img/speaker/1-6.png" height="150px" width="auto"></a></th>
-									<th width="50%"><a href="#zhupengfei"><img src="static/img/speaker/1-4.png" height="150px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">徐凯</a></th>
-									<th><a target="_blank" style="color:#777777;">朱鹏飞</a></th>
-								</tr>
-								<tr>
-									<th class="th_school">国防科技大学</th>
-									<th class="th_school">天津大学</th>
-								</tr>
-							</tbody>
-						</table>
+						
 					</div>
-					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
-						<strong>论坛简介</strong>
-					</p>
-					<div class="row-fluid" style="margin:15px 5% 0px 5%; width:90%;">
-						<p style="font-size:17.2px; line-height:31px; text-align:justify;">
-							  构建能够理解三维场景中各种信息的无人系统，能极大方便人们日常生活，提高社会生产效率。已经被广泛应用的无人车、无人机以及其他机器人设备，往往借助三维视觉技术对三维场景数据进行采集、处理、理解，获取信息汇总以进行行为决策。
-							在这个过程，如何将三维视觉技术和无人系统紧密结合起来，成为一个富有挑战性和高价值的科学问题。
-							本论坛聚焦三维视觉和无人系统前沿进展与应用，重点分享三维视觉基础技术进展、三维视觉与无人系统相结合的应用进展、无人系统行为决策技术进展等方面，
-							并探讨相关技术交叉融合和产业应用趋势。</p>
-					</div>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:10px 5% 30px 5%;">
-					<ul id="lindi" style="margin:30px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：林迪</li>
-						<li style="font-size: 13pt; line-height:31px; text-align:left;">
-							<strong>个人简介</strong>：林迪，天津大学副教授。2016年于香港中文大学获博士学位，2020年入选天津大学英才副教授系列。主要研究方向是二维、三维场景语义理解，目前于TPAMI/CVPR/ICCV/ECCV/
-							NeurIPS/ICML/Siggraph等计算机视觉、图形学和机器学习顶级会议和期刊上发表论文30余篇，相关研究成果获互联网+天津市金奖、COCO全景分割竞赛季军。目前担任中国图象图形学学会智能图形专委会委员，图形学国际会议CGI程序委员会委员。构建了首个基于笔触的弱监督语义分割数据集PASCAL-Scribble以及用于多属性复杂天气情况识别数据集MWD。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>di.lin@tju.edu.cn</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="guoyulan" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：郭裕兰</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：大规模点云理解与压缩</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：激光雷达和深度相机等传感器的快速发展，使得三维点云数据在自动驾驶、机器人、AR/VR等领域得到了广泛的关注。面向点云数据的深度学习研究，也成为了近年来计算机视觉领域的研究热点。然而，三维点云存在数据量大、标注困难、不同传感器采集的数据差异大等特点，给点云深度学习算法的设计和应用落地带来诸多挑战。在本报告中，将分享研究团队在点云特征学习和点云压缩方面的新进展。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：郭裕兰，国防科技大学副教授。主要研究方向为点云特征学习、三维场景感知与理解。目前已在IEEE
-							TPAMI、IJCV和CVPR等国际期刊和会议上发表学术论文100余篇，论文被引用6000余次。目前担任中国图象图形学学会三维视觉专委会秘书长，IEEE Transactions on
-							Image Processing和Computers &amp; Graphics等五个期刊编委，曾担任CVPR 2021、ICCV 2021和ACM Multimedia
-							2021等国际会议领域主席。曾入选2020年度Elsevier中国高被引学者和中国首届博士后创新人才支持计划，获得ACM China SIGAI Rising Star
-							Award，中国人工智能学会吴文俊人工智能优秀青年奖，中国人工智能学会优秀博士学位论文。
 
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>yulan.guo@nudt.edu.cn</a>
-						</li>
-					</ul>
-					<!-- <hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="lucewu" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：卢策吾</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：行为认知与具身智能</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：行为理解是人工智能领域的重要问题，其复杂性远远大于物体检测，本讲座讲讨论如何定量分析行为理解的难度，揭示无法用深度学习根本解决的原因。并推出一套全新的端对端可微分的感知-推理方案，很大程度上推进了行为理解，并在此基础上构建大规模行为理解知识引擎（HAKE），涉及千万基本知识样本，为Neural-Symbolic（网络-符号）提供实验室平台。为了进一步证明，行为理解在生物神经层面的存在性，构建一套全新的视觉感知与脑信号链接系统，揭示了行为理解在机器认知与生物认知的稳定相关性，同时成果预测了“社会阶层行为”的神经回路。从另一个角度，我们希望研究机器人行为理解与任务理解，涉及到“具身智能”（Embodied
-							AI），因此该讲座将简介“具身智能”的历史发展，介绍讲者提出的robotflow框架面向机器人本体的通用框架，同时介绍在机器人抓取方面的最新工作GraspNet-首个达到人类抓取能力通用抓取算法。最后总结行为理解与具生智能（第一视角行为理解）的内在关系与发展趋势。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：卢策吾，上海交通大学教授，博士生导师，2016年获国家海外引进高层青年人才，2018年被《麻省理工科技评论》评为35位35岁以下中国科技精英（MIT
-							TR35），2019年获求是杰出青年学者，2020年获上海市科技进步特等奖，上海交通大学校长奖。以通讯作者或第一作者在《Nature》，《Nature Machine
-							Intelligence》，TPAMI，CVPR等高水平期刊和会议发表（含接收）论文100多篇；担任《Science》，《Nature Machine
-							Intelligence》审稿人，CVPR 2020，ICCV 2021，IROS
-							2021领域主席。研究兴趣包括，人类行为理解，机器人学习，代表作包括人体姿态估计Alphapose（GitHub Star
-							5000+），HAKE（人体行为引擎），GraspNet（机器人通用抓取系统），RobotFlow（机器人学习开源系统）。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>lucewu@sjtu.edu.cn</a>
-						</li>
-					</ul> -->
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="xukai" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：徐凯</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：面向高自由度抓取的几何表征学习</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：高自由度抓取是机器人灵巧操作的重要研究问题，具有广阔的应用前景。我们提出基于几何表征学习来实现高自由度灵巧抓取。本报告将汇报我们在该方向的三项工作，重点介绍在动态交互表征学习方面的最新成果。我们将机械手与物体之间的夹取交互表示为交互二分面（Interaction
-							Bisector Surface
-							(IBS)，源于生物信息学领域，近年被引入图形学领域用于几何建模），用于建模和学习抓取过程中手和物体间的动态交互。我们发现，IBS可以很好地刻画高自由度机械手的每一个手指与物体之间的细粒度空间关系，是一种非常有效的交互状态表示。结合深度强化学习，可以较高的样本效率学习高自由度抓取控制模型，且习得的模型具有动态适应性和跨类别泛化性。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：徐凯，国防科技大学教授。国家优青，湖南省杰青。普林斯顿大学访问学者，西蒙弗雷泽大学客座教授。研究方向为数据驱动的三维感知与建模、三维视觉及其机器人应用等。发表CCF
-							A类论文60余篇，其中包括领域顶级会议和期刊ACM SIGGRAPH/Transactions on Graphics论文27篇。担任ACM Transactions on
-							Graphics，以及重要期刊Computer Graphics Forum、Computers and Graphics和The Visual Computer等的编委。担任GMP
-							2023等国际会议的论文共同主席，以及SIGGRAPH、Eurographics等会议的程序委员。担任中国图象图形学会三维视觉专委会副主任，中国工业与应用数学学会几何设计与计算专委会秘书长、中国图学学会理事。获湖南省自然科学一等奖、中国计算机学会自然科学一等奖、军队科技进步二等奖等。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>Kevin.kai.xu@gmail.com</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="zhupengfei" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：朱鹏飞</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：VisDrone--无人机视觉开放数据平台</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：智能无人系统依赖于多传感器对周围环境进行鲁棒的环境感知。团队构建了VisDrone大规模无人机视觉数据平台，包括可见光数据、双光数据以及多机协同数据等，覆盖目标检测、目标跟踪、群体分析和协同感知等任务。基于VisDrone数据平台，团队提出了多任务时空近邻感知网络、图正则光流网络、多机协同感知网络、双光融合网络等模型，开发了人机协同数据平台、河道智能巡检系统、智能交通巡检边缘计算盒子等产品，并成功应用在自动驾驶、智慧城市等领域。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：朱鹏飞，天津大学副教授，博士生导师，2015年于香港理工大学获得博士学位。主要研究方向是高维异构数据表示与识别，已发表CCF
-							A类和IEEE汇刊40余篇，谷歌学术引用4000余次。获IEEE
-							ICME2021最佳论文奖、CVPR2020最有影响力15篇论文、吴文俊人工智能优秀青年奖、黑龙江省自然科学一等奖、中国智能交通学会科技进步二等奖等奖励。参与制定人工智能领域团体标准13项。入选2019年度天津市青年人才托举工程以及2020年度天津市创新人才推进计划青年科技优秀人才。构建大规模无人机视觉数据平台VisDrone，担任ECCV2018、ICCV2019、ECCV2020、ICCV2021无人机视觉研讨会和竞赛负责人。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>zhupengfei@tju.edu.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
 
-					<!-- 论坛6 -->
-					<p id="ztlt6" style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
-						<strong>专题论坛6：实时物理仿真与人工智能</strong>
-					</p>
-
-					<div style="height: 30px;"></div>
-					<p style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-						<strong>论坛讲者（按姓氏拼音排序）</strong>
-					</p>
-					<!-- 电脑版 -->
-					<div class="onlymobile">
-						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-							<tbody>
-								<tr>
-									<th width="16.6%"><a href="#hexiaowei"><img src="static/img/speaker/3-1.png" height="150px" width="auto"></a></th>
-									<th width="16.6%"><a href="#liutiantian"><img src="static/img/speaker/3-2.png" height="150px" width="auto"></a></th>
-									<th width="16.6%"><a href="#renbo"><img src="static/img/speaker/3-3.png" height="150px" width="auto"></a></th>
-									<th width="16.6%"><a href="#tangmin"><img src="static/img/speaker/3-4.png" height="150px" width="auto"></a></th>
-									<th width="16.6%"><a href="#xuweiwei"><img src="static/img/speaker/3-5.png" height="150px" width="auto"></a></th>
-									<th width="16.6%"><a href="#zhufei"><img src="static/img/speaker/3-6.png" height="150px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">何小伟(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">刘天添</a></th>
-									<th><a target="_blank" style="color:#777777;">任博</a></th>
-									<th><a target="_blank" style="color:#777777;">唐敏</a></th>
-									<th><a target="_blank" style="color:#777777;">许威威</a></th>
-									<th><a target="_blank" style="color:#777777;">朱飞</a></th>
-
-								</tr>
-
-								<tr>
-									<th class="th_school">中科院软件所</th>
-									<th class="th_school">太极图形</th>
-									<th class="th_school">南开大学</th>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">北京大学</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<!-- 手机版 -->
-					<div class="onlywap">
-						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-							<tbody>
-								<tr>
-									<th width="33.3%"><a href="#hexiaowei"><img src="static/img/speaker/3-1.png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#liutiantian"><img src="static/img/speaker/3-2.png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#renbo"><img src="static/img/speaker/3-3.png" height="130px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">何小伟(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">刘天添</a></th>
-									<th><a target="_blank" style="color:#777777;">任博</a></th>
-								</tr>
-								<tr>
-									<th class="th_school">中科院软件所</th>
-									<th class="th_school">太极图形</th>
-									<th class="th_school">南开大学</th>
-								</tr>
-							</tbody>
-						</table>
-						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-							<tbody>
-								<tr>
-									<th width="33.3%"><a href="#tangmin"><img src="static/img/speaker/3-4.png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#xuweiwei"><img src="static/img/speaker/3-5.png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#zhufei"><img src="static/img/speaker/3-6.png" height="130px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">唐敏</a></th>
-									<th><a target="_blank" style="color:#777777;">许威威</a></th>
-									<th><a target="_blank" style="color:#777777;">朱飞</a></th>
-								</tr>
-								<tr>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">北京大学</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
-						<strong>论坛简介</strong>
-					</p>
-					<div class="row-fluid" style="margin:15px 5% 0px 5%; width:90%;">
-						<p style="font-size:17.2px; line-height:31px; text-align:justify;">
-							  以深度学习为代表的新一轮人工智能经历近十几年的发展，其在方方面面都已取得了引人瞩目的成绩。然而，朱松纯教授在《浅谈人工智能：现状、任务、架构与统一》一文中提到“缺乏物理的常识和社会的常识”已经成为制约现有人工智能发展的最大障碍。本论坛从制约实时物理仿真和新一代人工智能所需要解决的痛点问题入手，探讨如何有效结合物理仿真与人工智能并发挥各自的优势，从而使仿真技术在包括智能仿真、工业软件、智慧医疗在内的领域发挥更为广泛的作用。
-						</p>
-					</div>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="hexiaowei" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：何小伟</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>个人简介</strong>：何小伟，男，中国科学院软件研究所副研究员，硕导。主要研究方向包括计算机图形学、物理仿真、数值计算方法和基于GPU并行计算等。近年来在ACM
-							TOG、IEEE
-							TVCG、MICCAI等国际高水平期刊和会议累计发表论文20余篇。作为主要技术负责人参与研制基于GPU/CPU混合架构的通用物理仿真框架PhysIKA，并进一步主持构建面向实时智能与物理仿真实时物理引擎peridyno（www.peridyno.com）。以项目/课题负责人承担国家自然科学基金项目2项、国家重点研发项目1项，同时参与多个国家级、省部级项目。2019年入选中国科学院青年创新促进会会员，2021年入选中科院软件所杰出青年专项支持，兼任CCF智能图形专委会委员。
-
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>xiaowei@iscas.ac.cn</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="liutiantian" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：刘天添</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：可微物理仿真技术在高自由度运动技能学习上的应用
-						</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：可微物理仿真为基于梯度的神经网络运动控制器打开了一扇新的大门。然而，
-							简单的基于梯度的控制器往往只能完成单一目标的训练。这次报告中，我们将展示一个可以胜任多种运动目标的单一网络训练框架。我们在不同的高自由度物理系统（如弹簧质点系统和物质点法系统）中证实了我们的训练框架的可靠性和高效性。实验证明我们的基于梯度的训练框架可以在单一网络中跑出比增强学习更好的结果，且训练时间显著优于增强学习。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：刘天添，太极图形的资深研究科学家。他于宾夕法尼亚大学取得博士学位，在加入太极之前，还曾在微软亚洲研究院网络图形组工作。他的研究兴趣主要是高性能数值计算，实时物理仿真和几何处理，发表论文被ACM
-							TOG收录9篇。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>tiantian@taichi.graphics</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="renbo" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：任博</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：欠驱动流体系统的增强学习控制技术</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：我们针对欠驱动的流固耦合系统，提出了一类使用了增强学习手段，用极低的控制自由度完成对场景中无法自我驱动的物体的控制操作算法。该方法使用卷积神经网络提取流场的特征向量以降低输入信息的维度和训练复杂度，并将流场信息与场景中固体、边界等信息输入网络，输出一个可行的达成目标任务的优化控制行为。这一研究可以为游戏AI、机械控制等提供全新的解决方案。报告还将探讨如何进一步地让策略生成网络能够处理多任务，且更加高效学习并稳定地在不同模拟器间完成迁移。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：任博，于2015年于清华大学计算机科学与技术系获得工学博士学位。2015年7月至今于南开大学计算机系任教。主要研究领域为计算机图形学，计算机视觉，人工智能。近期研究方向包括基于机器学习/基于物理的流体模拟，三维场景重建，真实感渲染等。任教以来指导学生在国际顶级会议期刊（中科院一区，CCF
-							A类）发表文章多篇。承担国家自然科学基金项目、参与国家重点研发计划等多个国家级项目，参与开源通用物理仿真引擎PhysIKA的研发。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>rb@nankai.edu.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="tangmin" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：唐敏</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：基于学习方法的三维服装实时变形预测</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：我们给出了一种基于三维网格的学习方法来对三维服装进行实时变形预测。该方法具有较好的通用性，可以处理任意拓扑网格表示的服装和物体。我们使用了图卷积网络将服装和物体变换到隐空间，从而降低了原模型空间中的非线性性。我们的网络可以基于服装的初始模板和物体的目标状态，实时预测出三维服装网格的变形。该方法可以处理多达100K三角形组成的中型场景，物体可以由SMPL人体模型、非SMPL人体、或刚体组成。在实践中，我们的方法也展现出了较好的帧间连续性，并且可在一块NVIDIA
-							GeForce RTX 3090 GPU上以30-45fps的效率实时生成逼真的服装变形。我们也将该方法与前人的基于学习和基于物理的仿真算法进行了对比，并展示了其优越性。
-
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：唐敏，男，浙江大学计算机科学与技术学院教授，博导，中国计算机学会高级会员，ACM/IEEE会员。
-							在工作期间主持国家自然科学基金项目4项、国家支撑计划项目1项、博士点基金项目1项、浙江省自然科学基金面上项目2项、重点项目1项，
-							参与了多项国家级、省部级科研项目，并获得教育部科学进步二等奖（1997），国家科学进步三等奖（1999），浙江省技术发明一等奖（2021），中国电子学会科技进步奖三等奖（2022）。主要研究方向：物理仿真、基于图形处理器的计算加速、计算机辅助设计等，已在国内外期刊会议发表论文80余篇，SCI/EI收录50余篇（ACM
-							TOG论文7篇）。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>tang_m@zju.edu.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="xuweiwei" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：许威威</li>
-						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：面向物理仿真的自动量化技术</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：高分辨率的物理仿真可以带来很好的视觉效果，但其内存复杂度高，无法在桌面或移动平台上计算。本报告将介绍如何通过在编译器层面实现对量化数据类型，减少对仿真流水线量化编程开销，以极小的编程代价进行位级别的空间压缩，有效减少物理仿真算法内存空间和带宽的消耗，提高物理仿真的规模和分辨率。基于量化编译器，可实现在单张
-							NVIDIA RTX 3090 GPU上超过2.35亿粒子的物质点法仿真和单张NVIDIA TESLA V100
-							GPU上超过4亿个欧拉网格的烟雾仿真。在此基础之上，我们进一步提出了基于不确定性传播的量化方案求解方法，可以对物理仿真程序的变量进行自动量化。并将单张RTX 3090
-							GPU上的物质点法仿真规模进一步提高到了4亿粒子。通过自动量化方法与用户手工设计的量化方案进行对比，自动量化方案在消耗更少的内存的同时还具有更高的计算精度。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：许威威，现任浙江大学CAD&amp;CG国家重点实验室长聘教授，教育部长江学者。曾任日本立命馆大学博士后，微软亚洲研究院网络图形组研究员,
-							杭州师范大学浙江省钱江学者特聘教授。主要研究方向为计算机图形学、三维重建、深度学习、物理仿真及3D打印。在国内外高水平学术会议和期刊发表论文80余篇，其中ACM
-							Transactions on Graphics, IEEE TVCG, 及IEEE
-							CVPR等CCF-A类论文20余篇。获中国和美国授权专利15项。所开发的三维注册和重建技术在高精度扫描仪及人体三维重建系统中得到应用。2014年受国家自然科学基金优秀青年基金资助，主持国家自然科学基金重点项目一项，获浙江省自然科学二等奖一项。
-
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>xww@cad.zju.edu.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="zhufei" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：朱飞</li>
-						<li style="font-size: 13pt; line-height:40px;">
-							<strong>报告题目</strong>：基于GPU的四面体网格实时生成技术在CAE云仿真平台中的工程实践
-						</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：基于GPU的并行求解技术能大幅缩短仿真计算过程的耗时，提高生产效率。以有限元为代表的数值求解方法需要对几何模型做网格化处理，随着求解过程的性能提升，网格生成过程的性能成为瓶颈，网格化的耗时通常占全流程的1/3～1/2，甚至更多。现有的仿真软件大都采用“串行网格生成
-							+
-							并行求解”的计算模式，无法做到全流程并行。报告介绍我们在实现基于GPU并行的四面体网格生成技术过程中积累的工程实践，包括初始网格并行生成算法、网格质量并行优化算法、高性能GPU程序的通用准则等，并展示并行的网格生成技术在自研CAE云仿真平台中的应用实例。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：朱飞，男，北京大学计算机学院博士后，北京云境智仿信息技术有限公司CEO。主要研究方向为计算机图形学、物理仿真、基于GPU的并行计算等。作为核心技术人员参与国家重点研发计划、973、863等科研项目，在国内外期刊会议发表论文多篇。作为技术负责人长期从事图形学及并行计算相关技术的工程化落地，曾任创业公司资深算法工程师，研制面向服装数字化的物理仿真引擎及渲染引擎，任上市公司算法架构师，研究实时物理仿真技术在移动端的产品应用以及人工智能技术在视频基础画质提升等方面的应用等。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>feizhu@pku.edu.cn</a>
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-
-					<!-- 晨星启航 -->
-					<p id="cxqh" style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
-						<strong>晨星启航：研究生学术成长论坛</strong>
-					</p>
-
-					<div style="height: 30px;"></div>
-					<p style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-						<strong>论坛讲者（按姓氏拼音排序）</strong>
-					</p>
-					<!-- 电脑版 -->
-					<div class="onlymobile">
-						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-							<tbody>
-								<tr>
-									<th width="33.3%"><a href="#c-hanxiaoguang"><img src="static/img/speaker/cxqh/hanxiaoguang.jpg" height="150px" width="auto"></a></th>
-									<th width="33.3%"><a href="#c-chensiming"><img src="static/img/speaker/cxqh/chensiming.png" height="150px" width="auto"></a></th>
-									<th width="33.3%"><a href="#c-liutiantian"><img src="static/img/speaker/cxqh/liutiantian.png" height="150px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">韩晓光（论坛主席）</a></th>
-									<th><a target="_blank" style="color:#777777;">陈思明（论坛主席）</a></th>
-									<th><a target="_blank" style="color:#777777;">刘天添（论坛主席）</a></th>
-								</tr>
-
-								<tr>
-									<th class="th_school">香港中文大学(深圳)</th>
-									<th class="th_school">复旦大学</th>
-									<th class="th_school">太极图形</th>
-								</tr>
-							</tbody>
-						</table>
-						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-							<tbody>
-								<tr>
-									<th width="33.3%"><a href="#c-liuzipeng"><img src="static/img/speaker/cxqh/liuzipeng.png" height="150px" width="auto"></a>
-									</th>
-									<th width="33.3%"><a href="#c-pengsida"><img src="static/img/speaker/cxqh/pengsida.png" height="150px" width="auto"></a></th>
-									<th width="33.3%"><a href="#c-ruanliangwang"><img src="static/img/speaker/cxqh/ruanliangwang.png" height="150px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">刘子鹏</a></th>
-									<th><a target="_blank" style="color:#777777;">彭思达</a></th>
-									<th><a target="_blank" style="color:#777777;">阮良旺</a></th>
-								</tr>
-								<tr>
-									<th class="th_school">北京航空航天大学</th>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">北京大学</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<!-- 手机版 -->
-					<div class="onlywap">
-						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-							<tbody>
-								<tr>
-									<th width="33.3%"><a href="#c-hanxiaoguang"><img src="static/img/speaker/cxqh/hanxiaoguang.jpg" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#c-chensiming"><img src="static/img/speaker/cxqh/chensiming.png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#c-liutiantian"><img src="static/img/speaker/cxqh/liutiantian.png" height="130px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">韩晓光(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">陈思明(论坛主席)</a></th>
-									<th><a target="_blank" style="color:#777777;">刘天添(论坛主席)</a></th>
-								</tr>
-
-								<tr>
-									<th class="th_school">香港中文大学(深圳)</th>
-									<th class="th_school">复旦大学</th>
-									<th class="th_school">太极图形</th>
-								</tr>
-							</tbody>
-						</table>
-						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-							<tbody>
-								<tr>
-									<th width="33.3%"><a href="#c-liuzipeng"><img src="static/img/speaker/cxqh/liuzipeng.png" height="130px" width="auto"></a>
-									</th>
-									<th width="33.3%"><a href="#c-pengsida"><img src="static/img/speaker/cxqh/pengsida.png" height="130px" width="auto"></a></th>
-									<th width="33.3%"><a href="#c-ruanliangwang"><img src="static/img/speaker/cxqh/ruanliangwang.png" height="130px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">刘子鹏</a></th>
-									<th><a target="_blank" style="color:#777777;">彭思达</a></th>
-									<th><a target="_blank" style="color:#777777;">阮良旺</a></th>
-
-								</tr>
-								<tr>
-									<th class="th_school">北京航空航天大学</th>
-									<th class="th_school">浙江大学</th>
-									<th class="th_school">北京大学</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
-						<strong>论坛简介</strong>
-					</p>
-					<div class="row-fluid" style="margin:15px 5% 0px 5%; width:90%;">
-						<p style="font-size:17.2px; line-height:31px; text-align:justify;">
-							  一篇顶级论文是如何做出来的？一个好的科研方向是如何得到的？一名优秀的研究生是如何成长的？#论文背后的故事# 系列
-							GAMES在线报告得到了研究生的广泛好评和热烈反响。现在，我们线下会议相聚了！本论坛邀请了在图形学、三维视觉、可视化方面的三位优秀研究生，结合他们记忆中最为深刻的论文，分享他们的学术成长经验，介绍论文背后的故事。
-						</p>
-					</div>
-					<!-- 老师 -->
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="c-hanxiaoguang" style="margin:30px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：韩晓光</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>个人简介</strong>：韩晓光，香港中文大学(深圳)理工学院与未来智联网络研究院助理教授，校长青年学者。他于2017年获得香港大学计算机科学专业博士学位。研究方向包括计算机视觉和计算机图形学等，在该方向著名国际期刊和会议发表论文50余篇，包括顶级会议和期刊SIGGRAPH(Asia),
-							CVPR,ICCV,ECCV, NeurIPS,ACM TOG,IEEE
-							TPAMI等。他获得2021年度吴文俊人工智能科学技术奖-优秀青年奖,他还曾获得CCF图形开源数据集奖(DeepFashion3D),2019年和2020年连续两年入选计算机视觉顶级会议CVPR最佳论文列表（入选率分别为0.8%和0.4%)，IEEE
-							VR 2021 最佳论文荣誉提名, 计算机图形学顶级会议Siggraph Asia 2013新兴技术最佳演示奖。更多细节详见
-							<a href="https://gaplab.cuhk.edu.cn/">https://gaplab.cuhk.edu.cn/</a>
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="c-chensiming" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：陈思明</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>个人简介</strong>：陈思明，复旦大学大数据学院青年研究员，博士生导师，复旦大学可视分析与智能决策研究组负责人，上海市高层次引进人才。北京大学博士，复旦大学学士，从事大数据可视化与可视分析的研究十余年，共发表国际学术论文60余篇，其中在IEEE
-							VIS，IEEE TVCG，CGF, ACM CHI等顶级国际可视化会议以及期刊上发表近20篇文章。曾获得北京市图像图形学会优秀博士论文奖项。担任IEEE VIS（CCF
-							A）国际程序委员会委员，IMX会议论文领域主席等，获得十余次学术奖项，更多信息请登录：
-							<a href="http://simingchen.me">http://simingchen.me</a>查看。
-						</li>
-					</ul>
-					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="c-liutiantian" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：刘天添</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>个人简介</strong>：刘天添，太极图形的资深研究科学家。在加入太极之前，刘天添曾在微软亚洲研究院网络图形组做了3年的副研究员。刘天添2009年本科毕业于浙江大学，2012年与2018年于宾夕法尼亚大学分别获得硕士与博士学位。他的研究兴趣主要是快速物理仿真和几何处理算法以及高性能计算。详情请见个人主页：
-							<a href="http://tiantianliu.cn">http://tiantianliu.cn</a>
-						</li>
-					</ul>
-					<!-- 学生 -->
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="c-liuzipeng" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：刘子鹏</li>
-						<li style="font-size: 13pt; line-height:40px;">
-							<strong>报告题目</strong>：可视化的学科交叉与成长漫谈
-						</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：可视化最核心的任务是展示数据、分析数据、与数据交互。可视化方向的科学研究与计算机其他方向有何差异？可视化的学科交叉性在科研过程中如何体现？随着可视化的发展，这个领域的热点研究方向又有哪些变化？又有哪些长青的方向？我将结合在
-							UBC 攻读博士学位的经历探讨以上问题。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：刘子鹏，北京航空航天大学软件学院助理教授。他的研究方向为可视化、可视分析、大数据分析、人机交互。他曾主导参与多个课题的研究项目，包括人工智能的可解释性分析，经典点线图布局算法开发，针对具体领域数据（如生物数据和社交媒体文本数据）的可视化编码技术，软件用户行为数据分析等。在可视化顶级期刊发表多篇论文，并获得
-							IEEE Pacific Visualization 2019 的最佳论文提名奖。他于2021年从加拿大不列颠哥伦比亚大学取得博士学位，于2015年从北京大学取得学士学位。
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="c-pengsida" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：彭思达</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：本次报告我将分享我的第一篇CVPR论文“PVNet: Pixel-wise Voting Network for 6DoF Pose
-							Estimation”的创作过程，以此分享我刚入门科研时学着做论文的经验，包括：当进入一个全新科研方向时，如何梳理该方向的知识体系和找出存在的技术挑战；当解决特定技术挑战时，如何跳出常规解决思路并提出创新性的框架；当实现算法时，我们该以什么心态面对失败的实验、该如何从中学到新知识。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：彭思达，浙江大学CAD&amp;CG国家重点实验室四年级博士研究生，导师为周晓巍研究员。研究方向为三维视觉，主要研究三维重建与视角合成。博士至今在TPAMI、CVPR、ICCV等期刊或会议发表十余篇论文。一作论文引用超过800次。一篇一作论文获得CVPR最佳论文候选，三篇一作论文获得CVPR口头报告。在2020年获得CCF-CV学术新锐奖，在2022年被评选为苹果学者。
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="c-ruanliangwang" style="margin:30px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：阮良旺</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：本次分享我将回顾一下我的第一篇SIG"Solid-Fluid Interaction with
-							Surface-Tension-Dominant
-							Contact"的诞生过程：从开始的一团迷雾，中间错过两次投稿机会，历时一年半最终修成正果的故事。我希望更多分享这些曲折的经历如何树立我对科研的认识，关于如何调整自己的节奏，平衡科研和生活；以及我从合作者们身上学习到的优秀研究者应该具备的素质，关于如何成为一个“proactive"的研究者。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：阮良旺，北京大学计算机学院一年级博士生，导师是陈宝权教授，研究方向为计算机图形学中的物理模拟，关注于复杂自然现象的真实感仿真以及实时模拟的加速，本科毕业于北京大学图灵班。
-						</li>
-					</ul>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-
-					<!-- 校企联航 -->
-					<p id="xqlh" style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
-						<strong>校企联航：企业研究生发展论坛</strong>
-					</p>
-					<div style="height: 30px;"></div>
-					<p style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-						<strong>论坛讲者（按姓氏拼音排序）</strong>
-					</p>
-					<!-- 电脑版 -->
-					<div class="onlymobile">
-						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-							<tbody>
-								<tr>
-									<th width="25%"><a href="#x-fanghao"><img src="static/img/speaker/xqlh/fanghao.png" height="200px" width="auto"></a></th>
-									<th width="25%"><a href="#x-liangrui"><img src="static/img/speaker/xqlh/liangrui1.png" height="200px" width="auto"></a></th>
-									<th width="25%"><a href="#x-shenjiangyang"><img src="static/img/speaker/xqlh/shenjiangyang2.png" height="200px" width="auto"></a></th>
-									<th width="25%"><a href="#x-wuhao"><img src="static/img/speaker/xqlh/wuhao1.png" height="200px" width="auto"></a>
-									</th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">方昊</a></th>
-									<th><a target="_blank" style="color:#777777;">梁锐</a></th>
-									<th><a target="_blank" style="color:#777777;">沈江洋</a></th>
-									<th><a target="_blank" style="color:#777777;">吴昊</a></th>
-								</tr>
-
-								<tr>
-									<th class="th_school">其域创新</th>
-									<th class="th_school">中望软件</th>
-									<th class="th_school">相芯科技</th>
-									<th class="th_school">时谛智能</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<!-- 手机版 -->
-					<div class="onlywap">
-						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-							<tbody>
-								<tr>
-									<th width="50%"><a href="#x-fanghao"><img src="static/img/speaker/xqlh/fanghao.png" height="130px" width="auto"></a></th>
-									<th width="50%"><a href="#x-liangrui"><img src="static/img/speaker/xqlh/liangrui1.png" height="130px" width="auto"></a></th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">方昊</a></th>
-									<th><a target="_blank" style="color:#777777;">梁锐</a></th>
-								</tr>
-								<tr>
-									<th class="th_school">其域创新</th>
-									<th class="th_school">中望软件</th>
-								</tr>
-							</tbody>
-						</table>
-						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-							<tbody>
-								<tr>
-									<th width="50%"><a href="#x-shenjiangyang"><img src="static/img/speaker/xqlh/shenjiangyang2.png" height="130px" width="auto"></a></th>
-									<th width="50%"><a href="#x-wuhao"><img src="static/img/speaker/xqlh/wuhao1.png" height="130px" width="auto"></a>
-									</th>
-								</tr>
-								<tr>
-									<th><a target="_blank" style="color:#777777;">沈江洋</a></th>
-									<th><a target="_blank" style="color:#777777;">吴昊</a></th>
-								</tr>
-
-								<tr>
-									<th class="th_school">相芯科技</th>
-									<th class="th_school">时谛智能</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
-						<strong>论坛简介</strong>
-					</p>
-					<div class="row-fluid" style="margin:15px 5% 0px 5%; width:90%;">
-						<p style="font-size:17.2px; line-height:31px; text-align:justify;">
-							  随着国产自主工业设计软件、元宇宙等需求和概念的涌现，计算机图形学的人才缺口进一步扩大。如何进入计算机图形学相关的工业界？图形学在工业界中的典型任务是什么？在企业工作有哪些独特的成就感？如何规划自己的职业生涯？在2022秋招拉开帷幕之际，GAMES特别邀请了在图形学一线企业工作的员工，从研发骨干和技术高管的角度，围绕研究生在企业中的成长展开讨论。内容精彩，招招实用，欢迎参加GAMES
-							2022线下会议！
-						</p>
-					</div>
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="x-fanghao" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：方昊</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：报告作者为一名应用数学本科生，数据科学研究生，三维视觉博士生，在整个学生生涯完成了从理论基础到实际应用学科的转变。回国后，在寻找自己喜欢并且适合的工作的道路上不断摸索，分别从事过自动驾驶、高校教师、再到如今的其域科技AI算法负责人。主张终身学习、系统学习，用正确的方法走在正确的道路。报告人从自身学习和工作经历出发，讲述一名高校毕业生如何寻找适合自己的工作机会，以及从企业的招聘者角度出发，讲述企业如何挑选适合自己公司和相关岗位的应届生。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：方昊，其域创新AI算法组负责人，负责公司计算机图形学和三维视觉算法相关产品的研发，曾任深圳大学计算机与软件学院助理教授。2019年毕业于法国国家信息与自动化研究所(INRIA)，获得计算机科学与技术博士学位。主要研究方向为三维视觉，攻读博士学位期间主要研究基于三维点云和网格数据的室内、外场景理解及重建。近年来，在深度学习、三维重建以及几何处理领域积累了丰富的经验。以第一作者身份已在CVPR、ISPRS
-							Journal上发表了5篇顶级论文，正在申请多项国内外发明专利。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>hao.fang@xgrids.com</a>
-						</li>
-					</ul>
-
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="x-liangrui" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者：</strong>梁锐</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：报告者作为一名土木工程专业研究生，根据自身兴趣逐步调整方向，从“工地搬砖者”到二级注册结构工程师，再到为英国联合利华公司研究关于头发的难题（开发三维细长纤维流固耦合算法与程序），并最终来到中望软件这家“CAD”公司做CAE软件开发工作，打造了完全自主可控的结构仿真软件。报告者从自身的学习和工作经历出发，分享一名研究生如何根据自己的兴趣和社会发展需要来进行职业选择和规划。同时，结合工业仿真软件研发岗位日常工作，分享毕业生们该如何进行从学术研究到工业界研发的身份与思维转变。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：梁锐，中望软件CAE研发中心副总监，负责结构仿真软件产品开发。英国斯旺西大学辛克维奇中心博士，研究领域为计算固体力学、计算流体力学、非线性有限元。曾主持英国联合利华公司“柔性纤维水动力学”关键算法及软件研发项目，解决了三维细长纤维流固耦合问题，并获得英国工程物理研究委员会全额博士奖学金。博士毕业回国后长期耕耘在工业软件和应用领域，加入中望后主导了复合材料、结构大变形、参数优化、疲劳分析等功能的开发。
-						</li>
-						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
-							<strong>个人邮箱</strong>： <a>liangrui@zwsoft.com</a>
-						</li>
-					</ul>
-
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="x-shenjiangyang" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者：</strong>沈江洋</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：杭州相芯科技有限公司资深图形/图像算法工程师。介绍了其在浙大CAD&amp;CG实验室，从测控跨专业到计算机的研究生成长经历。分享了其毕业以后所在的杭州相芯科技，以及其在相芯科技所做的人脸数字化生成相关的工作内容。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：沈江洋，杭州相芯科技有限公司资深算法工程师。
-							浙江大学CAD&amp;CG计算机图形学专业硕士毕业，拥有6年图形图像算法经验。
-							曾获美国大学生数学建模竞赛一等奖，全国大学生数学竞赛一等奖，浙江省大学生物理竞赛一等奖，浙江省微积分竞赛一等奖，
-							天池智慧航空AI大赛第6名，优秀研究生。
-						</li>
-					</ul>
-
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="x-wuhao" style="margin:30px 5% 30px 5%;text-align:justify;">
-						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者：</strong>吴昊</li>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>报告摘要</strong>：报告者计算机并行计算毕业后，到广东时谛智能进行AI算法工作，主导进行了数字面料扫描仪方面AI视觉算法方面的工作。从经验出发，分享如何切入新方向以及企业工作中的一些技巧。
-						</li>
-						<div style="height:5px"></div>
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：吴昊，时谛智能图形图像算法部门高级研究员，博士、研究生、本科分别毕业于香港大学、浙江大学和南京大学。主要负责时谛智能数字化扫描仪、FIM
-							Studio、时尚趋势等系列产品的图像和视觉算法方面的研究。
-						</li>
-					</ul>
-
-					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<table width="90%" style="margin:30px 0 0 5%;">
-						<tbody>
-							<tr>
-								<th colspan="6" style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									<strong>论坛主持人</strong>
-								</th>
-							</tr>
-							<tr>
-								<th><a href="#sunyiping"><img src="static/img/speaker/xqlh/sunyiping.png" height="200px" width="auto"></a></th>
-							</tr>
-
-							<tr>
-								<th><a target="_blank" style="color:#777777;">孙一平</a></th>
-							</tr>
-
-							<tr>
-								<th class="th_school">中南大学</th>
-							</tr>
-						</tbody>
-					</table>
-					<ul id="sunyiping" style="margin:5px 5% 30px 5%;text-align:left;">
-						<li style="font-size: 13pt; line-height:31px;">
-							<strong>个人简介</strong>：孙一平，中南大学计算机学院博士生，研究方向为数据可视化。
-						</li>
-					</ul>
+					
 				</div>
 			</div> <!-- /container -->
 		</div>
@@ -1781,7 +544,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span6">
-					<span class="footer-company">©2022 GAMES </span>
+					<span class="footer-company">©2023 GAMES </span>
 				</div>
 
 			</div>
