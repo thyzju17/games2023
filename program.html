@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
 <style type="text/css">
 	.table-c table th {
 		border-left: 1px solid;
@@ -17,8 +18,114 @@
 		margin: 30px 5% 0px 5%;
 		width: 90%;
 	}
-</style>
+	@media screen and (max-width: 1200px) {
+		.th_school {
+			font-size: 12px;
+		}
+	}
 
+	.button-top {
+		display: inline-block;
+		background-color: #ccc;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		border-radius: 4px;
+		position: fixed;
+		bottom: 30px;
+		right: 30px;
+		transition: background-color .3s,
+			opacity .5s, visibility .5s;
+		opacity: 0;
+		visibility: hidden;
+		z-index: 1000;
+	}
+
+	.button-top::after {
+		content: "\f077";
+		font-family: FontAwesome;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 2em;
+		line-height: 50px;
+		color: #fff;
+	}
+
+	.button-top:hover {
+		cursor: pointer;
+		background-color: #333;
+	}
+
+	.button-top:active {
+		background-color: #555;
+	}
+
+	.button-top.show {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.button {
+		background-color: #FFE4B5;
+		/* Green */
+		border: none;
+		color: #555555;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 18px;
+		font-weight: 800;
+
+	}
+
+	#speaker-ul a:visited {
+		color: #0e90d2;
+	}
+
+	#speaker-ul a:hover {
+		color: #0e90d2;
+	}
+
+	#speaker-ul a:link {
+		color: #0e90d2;
+	}
+
+	#speaker-ul a:active {
+		color: #0e90d2;
+	}
+
+	#head-a:hover {
+		color: #0e90d2;
+	}
+
+	.onlywap {
+		display: inline;
+	}
+
+	@media (min-width: 950px) {
+		.onlywap {
+			display: none;
+		}
+	}
+
+	.onlymobile {
+		display: none;
+	}
+
+	@media (min-width: 950px) {
+		.onlymobile {
+			display: inline;
+		}
+	}
+	.borderImage {
+		margin:30px 5% 0 5%;
+		border:#ccc 1px;
+		/* width: 90%; */
+		border-radius:10%;
+		/* border: 1px solid burlywood; */
+	}
+</style>
 <head>
     <title>GAMES 2023</title>
 
@@ -133,7 +240,7 @@
 					<p style="color:#0e90d2;font-size:18pt;margin:30px 5% 0 5%; text-align:center;">三维AIGC与视觉大模型技术研讨会
 						(GAMES 2023)日程（持续更新中）</p>
 					<!-- <p style="color:#0e90d2;font-size:13pt;margin:30px 5% 0 5%;text-align:center;">2020.5.15（星期五）</p> -->
-
+					<div class="onlymobile">
 					<div class="table-c" style="margin-top:-20px;margin-left:0%;margin-right:0%;" >
 						<table width="100%">
 							<tr>
@@ -223,7 +330,98 @@
 
 						</table>
 					</div>
-
+					</div>
+					
+						<div class="onlywap" style="margin-top:-20px;margin-left:0%;margin-right:0%;" >
+							<table width="100%">
+								<tr>
+									<th height="60px" style="text-align:center;font-size:23px;font-style:normal;font-weight:400;background-color:#2070B0;border: 2px solid white;"
+										colspan="3" >
+										<label></label>
+										
+										<font color="#FFFFFF" style=" width:100%"><b>2023年11月4日，星期六，上午</b></font>
+										<label></label>
+									</th>
+								</tr>
+	
+								<tr>
+									
+									
+									<th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">08:45 - 09:00</th>
+									<th width="50%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">鲍虎军教授致开幕词 </th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"> </th>
+								</tr>
+								<tr>
+									
+									<th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">09:00 - 09:40</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">童欣&emsp;MSRA首席研究员</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"> </th>
+								</tr>
+								<tr>
+									
+									<th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">09:40 - 10:20</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">朱军&emsp;清华大学教授</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"> </th>
+								</tr>
+								<tr>
+									
+									<th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">10:20 - 10:35</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">茶歇</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"> </th>
+								</tr>
+								<tr>
+									
+									<!-- <th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">10:35 - 11:15</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"><a href="speaker.html#qy">"书生"通用大模型体系&emsp;&emsp;报告人：乔宇 </a></th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"></th> -->
+									<th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">10:35 - 11:15</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">乔宇&emsp;上海人工智能实验室教授</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"></th>
+								</tr>
+								<tr>
+									
+									<th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">11:15 - 11:55</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">贾奎&emsp;华南理工大学教授</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"></th>
+								</tr>
+								<tr>
+									
+									<th height="60px" style="text-align:center;font-size:23px;font-style:normal;font-weight:400;background-color:#2070B0;border: 2px solid white;"
+										colspan="3" >
+										<label></label>
+										
+										<font color="#FFFFFF" style=" width:100%"><b>2023年11月4日，星期六，下午</b></font>
+										<label></label>
+									</th>
+								</tr>
+								<tr>
+									
+									<th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">13:30 - 14:10</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">段楠&emsp;MSRA首席研究员</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"></th>
+								</tr>
+								<tr>
+									
+									<th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">14:10 - 14:50</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">张举勇&emsp;中国科学技术大学教授</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"></th>
+								</tr>
+								<tr>
+									
+									<th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">14:50 - 15:00</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">茶歇</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"></th>
+								</tr>
+								<tr>
+									
+									<th height=50px width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">15:00 - 17:00</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;">Panel讨论</th>
+									<th width="20%" style="background-color:#E2F2FD;font-size:18px;border: 2px solid white;"></th>
+								</tr>
+	
+							</table>
+						</div>
+						
 					<hr width="90%" color="#f3e549" size="8" style="margin:30px 0 30px 5%;">
 				</div>
 
